@@ -1,0 +1,20 @@
+Linda Kosmetik Palembang – paket ekspor prototipe
+
+index.html
+  Versi offline. Buka langsung di browser (double-click). Produk, banner, brand, dan
+  pengaturan toko diambil dari data/linda-data.json yang sudah ditanam di dalam file ini.
+  Mode ini hanya-baca: pendaftaran member, keranjang ke WhatsApp tetap jalan, tetapi
+  data baru tidak tersimpan ke database.
+
+linda-artifact.html
+  File asli yang dipakai di claude.ai. Butuh runtime claude.ai (database, upload, user)
+  sehingga kalau dibuka di luar claude.ai, katalog tidak akan muncul.
+
+data/linda-data.json
+  Semua data database per koleksi: toko (pengaturan), produk, kategori, brand, katalog,
+  banner, anggota, kartu (poin), riwayat (transaksi poin), pendaftaran, statistik,
+  audit (log perubahan), akses.
+
+assets/
+  File gambar yang diunggah (potret Ce Linda). Nama file tanpa ekstensi = id aset
+  yang dirujuk di data (mis. toko.pengaturan.ceFoto). ce-linda.jpg = salinan yang sama.

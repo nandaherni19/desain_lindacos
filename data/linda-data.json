@@ -1,0 +1,574 @@
+{
+  "sumber": "Linda Kosmetik Palembang – prototipe website (claude.ai artifact)",
+  "diekspor": "2026-10-29T06:48:33",
+  "koleksi": {
+    "toko": {
+      "pengaturan": {
+        "alamat": "Jl. Letkol Iskandar No.461, 15 Ilir, Kec. Ilir Timur I",
+        "benefit": "Kumpulkan poin di setiap belanja\nTukar poin dengan potongan harga\nInfo promo lebih dulu lewat WhatsApp",
+        "ceFoto": "eb901a9fa8ba933e6c207bf40a7d5235",
+        "ceGaya": "asli",
+        "ceQuote": "Biking Wong Cantik Galo. Dari Pucuk Ampe Bawah",
+        "instagram": "",
+        "jam": "",
+        "kota": "Kota Palembang, Sumatera Selatan 30111",
+        "mJudul": "Harga member, akses duluan, poin tiap belanja.",
+        "mTeks": "Gratis dan cuma butuh 1 menit. Sekali daftar, semua Promo Member dan Clearance langsung terbuka.",
+        "mTombol": "Daftar gratis",
+        "maps": "https://www.google.com/maps/search/?api=1&query=Jl.+Letkol+Iskandar+No.461,+15+Ilir,+Ilir+Timur+I,+Palembang+30111",
+        "rupiahPerPoin": 10000,
+        "tukar": "10 poin = potongan Rp10.000",
+        "wa": "6281274538849"
+      }
+    },
+    "produk": {
+      "contoh1": {
+        "aktif": true,
+        "bahan": "Kunyit, Temulawak",
+        "brandId": "b-a",
+        "crosssell": [
+          "contoh3",
+          "contoh5"
+        ],
+        "deskripsi": "Produk contoh. Ganti dengan data asli dari Dashboard.",
+        "dibuat": 1761700000008,
+        "fotoId": "",
+        "harga": 35000,
+        "hargaMember": 29000,
+        "hargaPromo": 0,
+        "kategoriId": "k-lulur",
+        "nama": "Lulur Kunyit Temulawak",
+        "segmen": [
+          "new",
+          "trending",
+          "pick"
+        ],
+        "sponsor": true,
+        "stok": "ada",
+        "ukuran": "200 g",
+        "upsell": [
+          "contoh6"
+        ],
+        "warna": "kunyit"
+      },
+      "contoh10": {
+        "aktif": true,
+        "bahan": "Kopi, Gula aren",
+        "brandId": "b-a",
+        "crosssell": [],
+        "deskripsi": "Produk contoh.",
+        "dibuat": 1761700000019,
+        "fotoId": "",
+        "harga": 32000,
+        "hargaMember": 27000,
+        "kategoriId": "k-lulur",
+        "nama": "Scrub Kopi Gula Aren",
+        "segmen": [
+          "flash"
+        ],
+        "sponsor": true,
+        "stok": "ada",
+        "ukuran": "200 g",
+        "upsell": [],
+        "warna": "coklat"
+      },
+      "contoh11": {
+        "aktif": true,
+        "bahan": "Temulawak",
+        "brandId": "b-c",
+        "crosssell": [],
+        "deskripsi": "Produk contoh.",
+        "dibuat": 1761700000018,
+        "fotoId": "",
+        "harga": 26000,
+        "hargaMember": 0,
+        "kategoriId": "k-masker",
+        "nama": "Masker Temulawak",
+        "segmen": [
+          "trending",
+          "pick"
+        ],
+        "sponsor": true,
+        "stok": "ada",
+        "ukuran": "100 g",
+        "upsell": [],
+        "warna": "kunyit"
+      },
+      "contoh12": {
+        "aktif": true,
+        "brandId": "b-b",
+        "crosssell": [],
+        "deskripsi": "Produk contoh.",
+        "dibuat": 1761700000017,
+        "fotoId": "",
+        "harga": 45000,
+        "hargaMember": 39000,
+        "kategoriId": "k-rambut",
+        "nama": "Hair Tonic Ginseng",
+        "segmen": [
+          "flash"
+        ],
+        "sponsor": true,
+        "stok": "sedikit",
+        "ukuran": "100 ml",
+        "upsell": [],
+        "warna": "tinta"
+      },
+      "contoh13": {
+        "aktif": true,
+        "bahan": "Bengkoang",
+        "brandId": "b-c",
+        "crosssell": [],
+        "deskripsi": "Produk contoh.",
+        "dibuat": 1761700000016,
+        "fotoId": "",
+        "harga": 33000,
+        "hargaMember": 0,
+        "kategoriId": "k-lulur",
+        "nama": "Lulur Bengkoang",
+        "segmen": [
+          "new",
+          "pick"
+        ],
+        "sponsor": true,
+        "stok": "ada",
+        "ukuran": "200 g",
+        "upsell": [],
+        "warna": "lavender"
+      },
+      "contoh14": {
+        "aktif": true,
+        "brandId": "b-a",
+        "crosssell": [],
+        "deskripsi": "Produk contoh.",
+        "dibuat": 1761700000015,
+        "fotoId": "",
+        "harga": 38000,
+        "hargaMember": 32000,
+        "kategoriId": "k-bedak",
+        "nama": "Bedak Kompak Kenanga",
+        "segmen": [
+          "clearance"
+        ],
+        "sponsor": true,
+        "stok": "sedikit",
+        "ukuran": "12 g",
+        "upsell": [],
+        "warna": "mawar"
+      },
+      "contoh15": {
+        "aktif": true,
+        "brandId": "b-c",
+        "crosssell": [],
+        "deskripsi": "Produk contoh.",
+        "dibuat": 1761700000014,
+        "fotoId": "",
+        "harga": 29000,
+        "hargaMember": 0,
+        "kategoriId": "k-body",
+        "nama": "Minyak Zaitun Murni",
+        "segmen": [
+          "trending"
+        ],
+        "sponsor": true,
+        "stok": "ada",
+        "ukuran": "150 ml",
+        "upsell": [],
+        "warna": "kunyit"
+      },
+      "contoh16": {
+        "aktif": true,
+        "brandId": "b-a",
+        "crosssell": [],
+        "deskripsi": "Produk contoh.",
+        "dibuat": 1761700000013,
+        "fotoId": "",
+        "harga": 30000,
+        "hargaMember": 24000,
+        "kategoriId": "k-masker",
+        "nama": "Masker Rumput Laut",
+        "segmen": [
+          "flash",
+          "clearance"
+        ],
+        "sponsor": false,
+        "stok": "ada",
+        "ukuran": "100 g",
+        "upsell": [],
+        "warna": "daun"
+      },
+      "contoh17": {
+        "aktif": true,
+        "brandId": "b-b",
+        "crosssell": [],
+        "deskripsi": "Produk contoh.",
+        "dibuat": 1761700000012,
+        "fotoId": "",
+        "harga": 34000,
+        "hargaMember": 0,
+        "kategoriId": "k-lulur",
+        "nama": "Body Scrub Mawar",
+        "segmen": [],
+        "sponsor": true,
+        "stok": "ada",
+        "ukuran": "200 g",
+        "upsell": [],
+        "warna": "mawar"
+      },
+      "contoh18": {
+        "aktif": true,
+        "bahan": "Kunyit",
+        "brandId": "b-a",
+        "crosssell": [],
+        "deskripsi": "Produk contoh.",
+        "dibuat": 1761700000011,
+        "fotoId": "",
+        "harga": 42000,
+        "hargaMember": 36000,
+        "kategoriId": "k-body",
+        "nama": "Krim Malam Kunyit",
+        "segmen": [
+          "new",
+          "flash"
+        ],
+        "sponsor": false,
+        "stok": "ada",
+        "ukuran": "30 g",
+        "upsell": [],
+        "warna": "kunyit"
+      },
+      "contoh19": {
+        "aktif": true,
+        "bahan": "Lidah buaya",
+        "brandId": "b-c",
+        "crosssell": [],
+        "deskripsi": "Produk contoh.",
+        "dibuat": 1761700000010,
+        "fotoId": "",
+        "harga": 21000,
+        "hargaMember": 16000,
+        "kategoriId": "k-rambut",
+        "nama": "Sampo Lidah Buaya",
+        "segmen": [
+          "clearance"
+        ],
+        "sponsor": false,
+        "stok": "sedikit",
+        "ukuran": "200 ml",
+        "upsell": [],
+        "warna": "daun"
+      },
+      "contoh2": {
+        "aktif": true,
+        "bahan": "Beras, Kencur",
+        "brandId": "b-b",
+        "crosssell": [
+          "contoh3"
+        ],
+        "deskripsi": "Produk contoh.",
+        "dibuat": 1761700000007,
+        "fotoId": "",
+        "harga": 22000,
+        "hargaMember": 19000,
+        "hargaPromo": 0,
+        "kategoriId": "k-bedak",
+        "nama": "Bedak Dingin Beras Kencur",
+        "segmen": [
+          "flash"
+        ],
+        "sponsor": false,
+        "stok": "sedikit",
+        "ukuran": "50 g",
+        "upsell": [],
+        "warna": "coklat"
+      },
+      "contoh20": {
+        "aktif": true,
+        "brandId": "b-b",
+        "crosssell": [],
+        "deskripsi": "Produk contoh.",
+        "dibuat": 1761700000001,
+        "fotoId": "",
+        "harga": 40000,
+        "hargaMember": 0,
+        "kategoriId": "k-body",
+        "nama": "Body Butter Kopi",
+        "segmen": [
+          "trending"
+        ],
+        "sponsor": true,
+        "stok": "ada",
+        "ukuran": "150 g",
+        "upsell": [],
+        "warna": "coklat"
+      },
+      "contoh3": {
+        "aktif": true,
+        "bahan": "Bengkoang, Mawar",
+        "brandId": "b-c",
+        "crosssell": [
+          "contoh1",
+          "contoh2"
+        ],
+        "deskripsi": "Produk contoh.",
+        "dibuat": 1761700000006,
+        "fotoId": "",
+        "harga": 28000,
+        "hargaMember": 22000,
+        "hargaPromo": 0,
+        "kategoriId": "k-masker",
+        "nama": "Masker Bengkoang Mawar",
+        "segmen": [
+          "new",
+          "flash"
+        ],
+        "sponsor": false,
+        "stok": "ada",
+        "ukuran": "100 g",
+        "upsell": [],
+        "warna": "mawar"
+      },
+      "contoh4": {
+        "aktif": true,
+        "bahan": "Kemiri, Lidah buaya",
+        "brandId": "b-a",
+        "crosssell": [],
+        "deskripsi": "Produk contoh.",
+        "dibuat": 1761700000005,
+        "fotoId": "",
+        "harga": 30000,
+        "hargaMember": 0,
+        "hargaPromo": 0,
+        "kategoriId": "k-rambut",
+        "nama": "Minyak Kemiri Lidah Buaya",
+        "segmen": [
+          "trending",
+          "pick"
+        ],
+        "sponsor": true,
+        "stok": "habis",
+        "ukuran": "100 ml",
+        "upsell": [],
+        "warna": "daun"
+      },
+      "contoh5": {
+        "aktif": true,
+        "bahan": "Pandan",
+        "brandId": "b-b",
+        "crosssell": [
+          "contoh1"
+        ],
+        "deskripsi": "Produk contoh.",
+        "dibuat": 1761700000004,
+        "fotoId": "",
+        "harga": 32000,
+        "hargaMember": 27000,
+        "hargaPromo": 0,
+        "kategoriId": "k-body",
+        "nama": "Body Lotion Sari Pandan",
+        "segmen": [
+          "clearance"
+        ],
+        "sponsor": false,
+        "stok": "ada",
+        "ukuran": "250 ml",
+        "upsell": [],
+        "warna": "lavender"
+      },
+      "contoh6": {
+        "aktif": true,
+        "brandId": "b-a",
+        "crosssell": [
+          "contoh5"
+        ],
+        "deskripsi": "Produk contoh.",
+        "dibuat": 1761700000009,
+        "fotoId": "",
+        "harga": 85000,
+        "hargaMember": 0,
+        "hargaPromo": 0,
+        "kategoriId": "k-lulur",
+        "nama": "Paket Lulur Lengkap",
+        "segmen": [
+          "new"
+        ],
+        "sponsor": true,
+        "stok": "ada",
+        "ukuran": "3 x 200 g",
+        "upsell": [],
+        "warna": "merah"
+      },
+      "contoh7": {
+        "aktif": true,
+        "brandId": "b-c",
+        "crosssell": [
+          "contoh2"
+        ],
+        "deskripsi": "Produk contoh.",
+        "dibuat": 1761700000003,
+        "fotoId": "",
+        "harga": 26000,
+        "hargaMember": 21000,
+        "hargaPromo": 0,
+        "kategoriId": "k-bedak",
+        "nama": "Bedak Tabur Kembang",
+        "segmen": [
+          "flash"
+        ],
+        "sponsor": false,
+        "stok": "ada",
+        "ukuran": "30 g",
+        "upsell": [],
+        "warna": "tinta"
+      },
+      "contoh8": {
+        "aktif": true,
+        "bahan": "Urang-aring",
+        "brandId": "b-c",
+        "crosssell": [
+          "contoh4"
+        ],
+        "deskripsi": "Produk contoh.",
+        "dibuat": 1761700000002,
+        "fotoId": "",
+        "harga": 24000,
+        "hargaMember": 19000,
+        "hargaPromo": 0,
+        "kategoriId": "k-rambut",
+        "nama": "Sampo Urang-aring",
+        "segmen": [
+          "trending",
+          "clearance",
+          "pick"
+        ],
+        "sponsor": false,
+        "stok": "ada",
+        "ukuran": "200 ml",
+        "upsell": [],
+        "warna": "daun"
+      },
+      "contoh9": {
+        "aktif": true,
+        "brandId": "b-b",
+        "crosssell": [],
+        "deskripsi": "Produk contoh.",
+        "dibuat": 1761700000020,
+        "fotoId": "",
+        "harga": 15000,
+        "hargaMember": 0,
+        "kategoriId": "k-body",
+        "nama": "Sabun Sereh Wangi",
+        "segmen": [
+          "new"
+        ],
+        "sponsor": true,
+        "stok": "ada",
+        "ukuran": "100 g",
+        "upsell": [],
+        "warna": "daun"
+      }
+    },
+    "kategori": {
+      "k-bedak": {
+        "nama": "Bedak",
+        "urutan": 2,
+        "warna": "coklat"
+      },
+      "k-body": {
+        "nama": "Body care",
+        "urutan": 5,
+        "warna": "lavender"
+      },
+      "k-lulur": {
+        "nama": "Lulur & scrub",
+        "urutan": 1,
+        "warna": "kunyit"
+      },
+      "k-masker": {
+        "nama": "Masker",
+        "urutan": 3,
+        "warna": "mawar"
+      },
+      "k-rambut": {
+        "nama": "Perawatan rambut",
+        "urutan": 4,
+        "warna": "daun"
+      }
+    },
+    "brand": {
+      "b-a": {
+        "nama": "Brand Contoh A",
+        "urutan": 1
+      },
+      "b-b": {
+        "nama": "Brand Contoh B",
+        "urutan": 2
+      },
+      "b-c": {
+        "nama": "Brand Contoh C",
+        "urutan": 3
+      },
+      "b-skinberries": {
+        "nama": "SkinBerries",
+        "pick": true,
+        "urutan": 0
+      }
+    },
+    "katalog": {},
+    "banner": {
+      "banner1": {
+        "aktif": true,
+        "eyebrow": "SEJAK 1991 💋",
+        "fotoId": "",
+        "judul": "Toko Paling Tuo di Palembang",
+        "sub": "Resep cantik turun-temurun, sekarang dengan gaya kekinian. Pilih favoritmu, pesan langsung lewat WhatsApp.",
+        "target": "produk",
+        "tombol": "Lihat produk",
+        "urutan": 1,
+        "warna": "merah"
+      },
+      "banner2": {
+        "aktif": true,
+        "eyebrow": "Contoh banner promo",
+        "fotoId": "",
+        "judul": "Harga spesial minggu ini",
+        "sub": "Diskon untuk produk pilihan. Ganti banner ini dari Dashboard.",
+        "target": "promo",
+        "tombol": "Lihat promo",
+        "urutan": 2,
+        "warna": "kunyit"
+      },
+      "popup-ce": {
+        "aktif": true,
+        "eyebrow": "# Sejak 1991  # Toko Paling Tuo di Palembang",
+        "fotoId": "eb901a9fa8ba933e6c207bf40a7d5235",
+        "judul": "Kenalan sama Ce Linda",
+        "sub": "",
+        "target": "tentang",
+        "tipe": "popup",
+        "tombol": "Kenalan",
+        "urutan": 0,
+        "warna": "merah"
+      },
+      "popup1": {
+        "aktif": true,
+        "eyebrow": "# Diskon member s.d. 20%  # Akhir bulan",
+        "fotoId": "",
+        "judul": "Promo akhir bulan (contoh)",
+        "sub": "",
+        "target": "promo",
+        "tipe": "popup",
+        "tombol": "PROMO",
+        "urutan": 3,
+        "warna": "kunyit"
+      }
+    },
+    "anggota": {},
+    "kartu": {},
+    "riwayat": {},
+    "pendaftaran": {},
+    "statistik": {},
+    "audit": {},
+    "akses": {}
+  }
+}
