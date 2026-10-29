@@ -16,5 +16,5 @@ data/linda-data.json
   audit (log perubahan), akses.
 
 assets/
-  File gambar yang diunggah (potret Ce Linda). Nama file tanpa ekstensi = id aset
-  yang dirujuk di data (mis. toko.pengaturan.ceFoto). ce-linda.jpg = salinan yang sama.
+  Gambar yang diunggah: potret Ce Linda dan 7 logo brand contoh. Nama file = id aset
+  yang dirujuk di data (mis. toko.pengaturan.ceFoto, brand.*.logoId) + ekstensi.

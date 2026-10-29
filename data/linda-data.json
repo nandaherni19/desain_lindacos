@@ -1,6 +1,16 @@
 {
   "sumber": "Linda Kosmetik Palembang – prototipe website (claude.ai artifact)",
-  "diekspor": "2026-10-29T06:48:33",
+  "diekspor": "2026-10-29T14:39:31",
+  "aset": {
+    "eb901a9fa8ba933e6c207bf40a7d5235": "assets/eb901a9fa8ba933e6c207bf40a7d5235.jpg",
+    "15c0a2cc1da5f7f9ec08ba181b58fde8": "assets/15c0a2cc1da5f7f9ec08ba181b58fde8.svg",
+    "9e62893f1e8d039cea5ff41303b4e179": "assets/9e62893f1e8d039cea5ff41303b4e179.svg",
+    "7aebdaf2bdd516e914539ac6dda3bd47": "assets/7aebdaf2bdd516e914539ac6dda3bd47.svg",
+    "ca1c88e0eab26075cc2545364fcdc771": "assets/ca1c88e0eab26075cc2545364fcdc771.svg",
+    "a8b7d1e10f3b8ceea61d38cecf380f1d": "assets/a8b7d1e10f3b8ceea61d38cecf380f1d.svg",
+    "18f6faaf52cf80d16c13610ce1f3c9a9": "assets/18f6faaf52cf80d16c13610ce1f3c9a9.svg",
+    "3ab18bb5a86e0332833d360f28369574": "assets/3ab18bb5a86e0332833d360f28369574.svg"
+  },
   "koleksi": {
     "toko": {
       "pengaturan": {
@@ -96,7 +106,7 @@
       },
       "contoh12": {
         "aktif": true,
-        "brandId": "b-b",
+        "brandId": "b-f",
         "crosssell": [],
         "deskripsi": "Produk contoh.",
         "dibuat": 1761700000017,
@@ -178,7 +188,7 @@
       },
       "contoh16": {
         "aktif": true,
-        "brandId": "b-a",
+        "brandId": "b-d",
         "crosssell": [],
         "deskripsi": "Produk contoh.",
         "dibuat": 1761700000013,
@@ -218,7 +228,7 @@
       "contoh18": {
         "aktif": true,
         "bahan": "Kunyit",
-        "brandId": "b-a",
+        "brandId": "b-e",
         "crosssell": [],
         "deskripsi": "Produk contoh.",
         "dibuat": 1761700000011,
@@ -240,7 +250,7 @@
       "contoh19": {
         "aktif": true,
         "bahan": "Lidah buaya",
-        "brandId": "b-c",
+        "brandId": "b-f",
         "crosssell": [],
         "deskripsi": "Produk contoh.",
         "dibuat": 1761700000010,
@@ -284,7 +294,7 @@
       },
       "contoh20": {
         "aktif": true,
-        "brandId": "b-b",
+        "brandId": "b-g",
         "crosssell": [],
         "deskripsi": "Produk contoh.",
         "dibuat": 1761700000001,
@@ -305,7 +315,7 @@
       "contoh3": {
         "aktif": true,
         "bahan": "Bengkoang, Mawar",
-        "brandId": "b-c",
+        "brandId": "b-d",
         "crosssell": [
           "contoh1",
           "contoh2"
@@ -424,7 +434,7 @@
       "contoh8": {
         "aktif": true,
         "bahan": "Urang-aring",
-        "brandId": "b-c",
+        "brandId": "b-f",
         "crosssell": [
           "contoh4"
         ],
@@ -497,16 +507,39 @@
     },
     "brand": {
       "b-a": {
-        "nama": "Brand Contoh A",
+        "logoId": "15c0a2cc1da5f7f9ec08ba181b58fde8",
+        "nama": "Ayu Rempah",
         "urutan": 1
       },
       "b-b": {
-        "nama": "Brand Contoh B",
+        "logoId": "9e62893f1e8d039cea5ff41303b4e179",
+        "nama": "Bunga Seri",
         "urutan": 2
       },
       "b-c": {
-        "nama": "Brand Contoh C",
+        "logoId": "7aebdaf2bdd516e914539ac6dda3bd47",
+        "nama": "dewy.dew",
         "urutan": 3
+      },
+      "b-d": {
+        "logoId": "ca1c88e0eab26075cc2545364fcdc771",
+        "nama": "Haru Bloom",
+        "urutan": 4
+      },
+      "b-e": {
+        "logoId": "a8b7d1e10f3b8ceea61d38cecf380f1d",
+        "nama": "Kunyit & Co.",
+        "urutan": 5
+      },
+      "b-f": {
+        "logoId": "18f6faaf52cf80d16c13610ce1f3c9a9",
+        "nama": "Pucuk",
+        "urutan": 6
+      },
+      "b-g": {
+        "logoId": "3ab18bb5a86e0332833d360f28369574",
+        "nama": "Sinar Pagi",
+        "urutan": 7
       },
       "b-skinberries": {
         "nama": "SkinBerries",
