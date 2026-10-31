@@ -892,6 +892,223 @@ h2 .h-gl svg path[fill="#111"]{fill:currentColor} h2 .h-gl svg path[stroke="#111
 .bsq-l img{max-width:92%; max-height:100%}
 .bsq.haslogo .bsq-l{position:relative; width:100%}
 .bsq.haslogo .bsq-l img{position:absolute; inset:0; width:100%; height:100%; max-width:none; object-fit:contain}
+/* akun saya */
+nav.main a.nav-member.is-akun{padding:6px 16px 6px 6px; box-shadow:0 0 0 3px rgba(214,51,74,.18), 0 10px 22px -10px rgba(214,51,74,.8)}
+nav.main a.nav-member.is-akun svg{display:none}
+.av-i{display:inline-grid; place-items:center; width:30px; height:30px; border-radius:50%; background:#fff; color:#D6334A; font-weight:800; font-size:14px}
+.fab-member.is-akun{padding-left:6px} .fab-member.is-akun svg{display:none} .fab-member .av-i{width:36px; height:36px}
+.bb-pill .av-i{width:26px; height:26px; font-size:12.5px} .bb-m.is-akun .bb-pill svg{display:none}
+.akh2 .mh2-in{padding-bottom:84px}
+.akstats{display:flex; gap:12px; flex-wrap:wrap}
+.akstats > div{background:rgba(255,255,255,.85); border:1px solid rgba(214,51,74,.12); border-radius:18px; padding:12px 18px; min-width:130px}
+.akstats b{display:block; font-family:var(--serif); font-weight:400; font-size:32px; line-height:1; color:#D6334A}
+.akstats span{font-size:13px; color:#7A5E66; font-weight:600}
+.aklay{display:grid; grid-template-columns:240px 1fr; gap:24px; align-items:start; margin-top:-52px; position:relative}
+.aknav{position:sticky; top:88px; background:var(--card); border:1px solid var(--line); border-radius:22px; padding:8px; box-shadow:var(--shadow); display:flex; flex-direction:column; gap:2px}
+.aknav button{all:unset; box-sizing:border-box; cursor:pointer; display:flex; align-items:center; gap:12px; padding:12px 14px; border-radius:14px; font-weight:700; font-size:15px; color:var(--ink)}
+.aknav button svg{width:20px; height:20px; flex:none; color:var(--muted)}
+.aknav button:hover{background:var(--surface)}
+.aknav button[aria-current="true"]{background:#D6334A; color:#fff} .aknav button[aria-current="true"] svg{color:#fff}
+.aknav button:focus-visible{outline:3px solid var(--kunyit)}
+.aknav .out{color:var(--muted); margin-top:6px; border-top:1px solid var(--line); border-radius:0 0 14px 14px}
+.akbody .panel-card.main{max-width:none}
+.ptbig{display:grid; grid-template-columns:1fr 1fr; gap:12px; margin:6px 0 14px}
+.ptbig > div{border-radius:18px; padding:16px 18px; background:linear-gradient(135deg,#D6334A,#9F1D35); color:#fff}
+.ptbig > div + div{background:var(--surface); color:var(--ink)}
+.ptbig b{display:block; font-family:var(--serif); font-weight:400; font-size:38px; line-height:1}
+.ptbig span{font-size:13.5px; font-weight:600; opacity:.85}
+.akh{font-size:16px; margin:0 0 10px}
+.tklist{margin:0 0 14px; padding-left:18px; display:grid; gap:4px}
+.phist{list-style:none; margin:0; padding:0; display:grid; gap:8px}
+.phist li{display:flex; justify-content:space-between; align-items:center; gap:12px; background:var(--surface); border-radius:14px; padding:10px 14px}
+.phist b{display:block; font-size:15px} .phist span{font-size:13px; color:var(--muted)}
+.ro{padding:11px 14px; border-radius:14px; background:var(--surface); font-weight:800; letter-spacing:.06em}
+.pwbox{position:relative} .pwbox .in{padding-right:70px}
+.pweye{position:absolute; right:6px; top:50%; transform:translateY(-50%); border:0; background:var(--surface); border-radius:10px; padding:6px 10px; font-weight:700; font-size:13px; cursor:pointer; color:var(--ink)}
+.pwmeter{height:6px; border-radius:99px; background:var(--surface-2); overflow:hidden; margin-top:6px} .pwmeter i{display:block; height:100%; width:0; transition:width .2s, background .2s}
+@media (max-width:900px){ .aklay{grid-template-columns:1fr; margin-top:-48px} .aknav{position:static; flex-direction:row; overflow-x:auto; padding:6px} .aknav button{flex:none; padding:10px 14px} .aknav .out{margin:0; border-top:0; border-radius:14px} .akh2 .club-cards{order:-1; height:240px; max-width:340px; width:100%; margin:0 auto} }
+@media (max-width:520px){ .ptbig b{font-size:30px} }
+/* akun v2 */
+.akhero{background:linear-gradient(135deg,#FFE1E8 0%,#FFF4F6 50%,#EFE8FF 100%); color:#2A1A20; padding:30px 0 70px; overflow:hidden}
+.akhero .crumb, .akhero .crumb a{color:#8A6B74}
+.akh-top{display:flex; justify-content:space-between; align-items:flex-end; gap:16px; margin:6px 0 22px}
+.akh-top h1{font-family:var(--serif); font-weight:400; font-size:clamp(2.1rem,4.4vw,3.2rem); margin:0; line-height:1.05}
+.akh-top p{margin:6px 0 0; color:#6B5058}
+.akout{display:inline-flex; align-items:center; gap:8px; border:0; background:rgba(255,255,255,.75); border-radius:999px; padding:9px 16px; font-weight:700; color:#6B5058; cursor:pointer}
+.akout svg{width:18px; height:18px} .akout:hover{background:#fff; color:#D6334A}
+.akpts{display:grid; grid-template-columns:1.1fr 1fr .9fr; gap:16px; align-items:stretch}
+.pt-main{position:relative; overflow:hidden; border-radius:28px; padding:24px 26px; color:#fff; background:radial-gradient(120% 120% at 100% 0%,#FF7AAE 0%,#D6334A 50%,#8E1B2E 100%); box-shadow:0 30px 50px -28px rgba(214,51,74,.9); display:flex; flex-direction:column; align-items:flex-start; gap:2px}
+.pt-l{font-size:13px; font-weight:800; letter-spacing:.08em; text-transform:uppercase; opacity:.85}
+.pt-n{font-family:var(--serif); font-weight:400; font-size:clamp(3.2rem,7vw,5rem); line-height:1; font-variant-numeric:tabular-nums}
+.pt-s{font-weight:700; opacity:.9; margin-bottom:14px}
+.pt-hint{font-size:13.5px; opacity:.9}
+.pt-main .btn{margin-top:auto}
+.pt-spark{position:absolute; right:22px; top:16px; font-size:30px; color:#FFD36B; animation:tw 2.4s ease-in-out infinite}
+@keyframes tw{50%{transform:scale(1.3) rotate(20deg); opacity:.6}}
+.pt-tot{border-radius:28px; padding:24px 26px; background:#fff; border:1px solid rgba(214,51,74,.12); box-shadow:0 20px 40px -30px rgba(150,30,50,.5); display:flex; flex-direction:column; gap:4px}
+.pt-tot .pt-l{color:#8A6B74} .pt-tot .pt-n{color:#2A1A20; font-size:clamp(2.6rem,5.4vw,3.8rem)}
+.pt-bar{height:12px; border-radius:99px; background:#F1E3E6; overflow:hidden; margin-top:auto}
+.pt-bar i{display:block; height:100%; border-radius:99px; background:linear-gradient(90deg,#FF7AAE,#D6334A)}
+.pt-leg{display:flex; gap:14px; flex-wrap:wrap; font-size:13px; font-weight:600; color:#6B5058; margin-top:8px}
+.pt-leg i{display:inline-block; width:10px; height:10px; border-radius:50%; margin-right:6px; vertical-align:-1px} .pt-leg .d1{background:#D6334A} .pt-leg .d2{background:#F1E3E6; box-shadow:inset 0 0 0 1px #E0C8CE}
+.pt-card{position:relative; display:grid; place-items:center} .pt-card .ccard{position:relative; left:auto; top:auto; width:100%; max-width:300px; transform:rotate(-5deg)}
+.aktiles{display:grid; grid-template-columns:repeat(3,1fr); gap:14px; margin-top:-40px; position:relative; z-index:2}
+.aktiles button{all:unset; box-sizing:border-box; cursor:pointer; display:flex; align-items:center; gap:14px; background:#fff; border:1px solid var(--line); border-radius:22px; padding:16px 18px; box-shadow:0 16px 30px -24px rgba(80,10,25,.5); transition:transform .15s, box-shadow .15s}
+.aktiles button:hover{transform:translateY(-2px); box-shadow:0 20px 36px -22px rgba(80,10,25,.55)}
+.aktiles button:focus-visible{outline:3px solid var(--kunyit)}
+.aktiles .ti{flex:none; width:46px; height:46px; border-radius:15px; display:grid; place-items:center; background:var(--surface); color:#D6334A}
+.aktiles .ti svg{width:24px; height:24px}
+.aktiles .tt{flex:1; min-width:0} .aktiles .tt b{display:block; font-size:16px} .aktiles .tt small{display:block; color:var(--muted); font-size:13px; white-space:nowrap; overflow:hidden; text-overflow:ellipsis}
+.aktiles .tch{font-size:24px; color:var(--muted)}
+.aktiles button[aria-current="true"]{background:linear-gradient(135deg,#D6334A,#A91E35); color:#fff; border-color:transparent; box-shadow:0 22px 40px -22px rgba(214,51,74,.9)}
+.aktiles button[aria-current="true"] .ti{background:rgba(255,255,255,.18); color:#fff} .aktiles button[aria-current="true"] small, .aktiles button[aria-current="true"] .tch{color:rgba(255,255,255,.85)}
+.akbody{margin-top:22px}
+.ak2{display:grid; grid-template-columns:1.5fr 1fr; gap:20px; align-items:start}
+.rh-head{display:flex; justify-content:space-between; align-items:center; gap:12px; flex-wrap:wrap; margin-bottom:14px} .rh-head h2{margin:0} .rh-head .seg{margin:0}
+.rh-sum{display:grid; grid-template-columns:1fr 1fr; gap:10px; margin-bottom:16px}
+.rh-sum > div{border-radius:16px; padding:12px 14px} .rh-sum span{display:block; font-size:12.5px; font-weight:700; opacity:.8}
+.rh-sum b{font-family:var(--serif); font-weight:400; font-size:28px}
+.rh-sum .up{background:color-mix(in srgb,var(--daun) 12%,#fff); color:#2F6B4F} .rh-sum .down{background:#FDECEF; color:#B5243A}
+.rh{list-style:none; margin:0; padding:0; display:grid; gap:8px}
+.rh li{display:flex; align-items:center; gap:12px; padding:12px 14px; border-radius:16px; background:var(--surface)}
+.rh-ic{flex:none; width:36px; height:36px; border-radius:50%; display:grid; place-items:center; font-weight:900; font-size:17px}
+.rh li.up .rh-ic{background:color-mix(in srgb,var(--daun) 16%,#fff); color:#2F6B4F} .rh li.down .rh-ic{background:#FDE1E6; color:#D6334A}
+.rh-t{flex:1; min-width:0} .rh-t b{display:block; font-size:15px} .rh-t span{font-size:12.5px; color:var(--muted)}
+.rh-p{font-size:17px} .rh li.up .rh-p{color:#2F6B4F} .rh li.down .rh-p{color:#D6334A}
+.rh-empty{padding:26px; text-align:center; color:var(--muted); border:2px dashed var(--line); border-radius:18px}
+.tukar{position:sticky; top:90px} .tukar h2{margin-bottom:4px} .tkl{margin:0 0 16px; padding:0; list-style:none; display:grid; gap:8px} .tkl li{background:var(--surface); border-radius:14px; padding:10px 12px; font-weight:600; font-size:14.5px}
+@media (max-width:980px){ .akpts{grid-template-columns:1fr 1fr} .pt-card{display:none} .ak2{grid-template-columns:1fr} .tukar{position:static} }
+@media (max-width:640px){ .akpts{grid-template-columns:1fr} .aktiles{grid-template-columns:1fr; gap:8px} .aktiles button{padding:12px 14px} .akh-top{align-items:flex-start} }
+
+/* promo member: vip */
+.vip{position:relative; overflow:hidden; isolation:isolate; margin-top:64px; padding:60px 0; color:#fff; background:radial-gradient(90% 120% at 10% 0%,#FF5C93 0%,#E8257A 30%,#C7213F 62%,#7A1E31 100%)}
+.v-spark{position:absolute; inset:0; z-index:-1; opacity:.55; background-image:radial-gradient(circle,rgba(255,255,255,.9) 1px,transparent 1.8px),radial-gradient(circle,rgba(255,211,107,.9) 1.2px,transparent 2px); background-size:80px 80px,130px 130px; background-position:0 0,40px 60px; animation:drift 30s linear infinite}
+@keyframes drift{to{background-position:80px 160px,170px 320px}}
+.v-head{display:flex; justify-content:space-between; align-items:flex-end; gap:18px; flex-wrap:wrap; margin-bottom:24px}
+.v-eye{font-size:12.5px; font-weight:800; letter-spacing:.18em; color:#FFD36B; margin-bottom:8px}
+.vip h2{color:#fff; font-size:clamp(2.1rem,4.4vw,3.4rem)} .vip h2 .bolt{color:#FFD36B}
+.v-head p{margin:8px 0 0; max-width:54ch; opacity:.9}
+.v-right{display:flex; align-items:center; gap:12px; flex-wrap:wrap}
+.ustat{display:inline-flex; align-items:center; gap:8px; padding:9px 16px; border-radius:999px; font-weight:800; font-size:14px; background:rgba(0,0,0,.22); color:#fff; box-shadow:inset 0 0 0 1px rgba(255,255,255,.25)}
+.ustat svg{width:18px; height:18px}
+.ustat.on{background:linear-gradient(110deg,#FFE48A,#F2B544 40%,#FFF3C4 50%,#F2B544 60%,#FFE48A); background-size:250% 100%; color:#5A3A00; box-shadow:0 10px 24px -10px rgba(242,181,68,.9); animation:goldsh 3s linear infinite}
+@keyframes goldsh{to{background-position:-250% 0}}
+.v-more{color:#fff!important}
+.v-yay{margin:-6px 0 22px; padding:12px 16px; border-radius:16px; background:rgba(255,255,255,.14); border:1px dashed rgba(255,255,255,.45); font-weight:700; text-align:center}
+.v-yay span{color:#FFD36B}
+.vip .pcard, .lastcall .pcard{background:#fff; color:#2A1A20; border-radius:24px; padding:10px 10px 12px; box-shadow:0 20px 40px -26px rgba(40,0,10,.8)}
+.vip .pcard .ph, .lastcall .pcard .ph{margin-bottom:10px}
+.vip .pcard .brandn, .vip .pcard .pnorm{color:#7A5E66}
+.vip .pcard h3, .lastcall .pcard h3{padding:0 2px}
+.vault{position:relative; display:grid; place-items:center; border-radius:24px; overflow:hidden; text-decoration:none; color:#fff; min-height:100%; background:#2A1A20; box-shadow:0 24px 44px -24px rgba(0,0,0,.8)}
+.v-stack{position:absolute; inset:0}
+.v-ghost{position:absolute; width:62%; aspect-ratio:1; border-radius:18px; overflow:hidden; filter:blur(5px) saturate(1.2); opacity:.75}
+.v-ghost.g0{left:-6%; top:6%; transform:rotate(-10deg)} .v-ghost.g1{right:-8%; top:20%; transform:rotate(8deg)} .v-ghost.g2{left:16%; bottom:-6%; transform:rotate(-3deg)}
+.vault::before{content:""; position:absolute; inset:0; background:linear-gradient(180deg,rgba(42,26,32,.35),rgba(42,26,32,.82)); z-index:1}
+.v-in{position:relative; z-index:2; display:flex; flex-direction:column; align-items:center; text-align:center; gap:6px; padding:22px 16px}
+.v-lock{display:grid; place-items:center; width:64px; height:64px; border-radius:50%; background:linear-gradient(135deg,#FFE48A,#F2B544); color:#5A3A00; box-shadow:0 0 0 8px rgba(255,211,107,.18), 0 14px 26px -10px rgba(0,0,0,.6); margin-bottom:6px}
+.v-lock .lk-ic{width:32px; height:32px} .lk-ic .shackle{transition:transform .3s cubic-bezier(.2,.7,.2,1)}
+.vault:hover .lk-ic .shackle, .vault:focus-visible .lk-ic .shackle{transform:translateY(-3px) rotate(-14deg); transform-origin:16px 11px}
+.v-in b{font-family:var(--serif); font-weight:400; font-size:30px; line-height:1}
+.v-in > span{font-size:14px; opacity:.85}
+.v-in .btn{margin-top:10px; color:#B5243A} .v-sub{font-size:12.5px!important; text-decoration:underline}
+.vault:hover{transform:translateY(-3px)} .vault{transition:transform .2s}
+@media (max-width:760px){ .vault{grid-column:1 / -1; min-height:240px} .vip{padding:44px 0} }
+/* clearance: last call */
+.lastcall{position:relative; overflow:hidden; isolation:isolate; margin-top:64px; background:linear-gradient(180deg,#FFF3CF,#FFE7A8); color:#2A1A20}
+.lastcall .wrap{padding-top:40px; padding-bottom:44px}
+.lastcall .v-eye{color:#B5243A}
+.lastcall h2{font-size:clamp(2.1rem,4.4vw,3.4rem); display:flex; align-items:center; gap:12px}
+.pctstk{display:inline-grid; place-items:center; width:54px; height:54px; border-radius:50%; background:#D6334A; color:#fff; font-family:var(--sans); font-weight:900; font-size:26px; transform:rotate(-12deg); box-shadow:0 10px 20px -8px rgba(214,51,74,.8)}
+.lastcall .ustat{background:#2A1A20; box-shadow:none}
+.lastcall .ustat.on{background:linear-gradient(110deg,#FFE48A,#F2B544 40%,#FFF3C4 50%,#F2B544 60%,#FFE48A); background-size:250% 100%; color:#5A3A00}
+.lastcall .more{color:#B5243A}
+.tape{background:repeating-linear-gradient(135deg,#2A1A20 0 18px,#F2B544 18px 36px); padding:3px 0; overflow:hidden}
+.tape div{background:#2A1A20; color:#FFD36B; font-weight:900; font-size:13px; letter-spacing:.16em; white-space:nowrap; padding:7px 0; width:max-content; animation:marq 40s linear infinite}
+.lastcall .tape:last-child div{animation-direction:reverse}
+.lastcall .vault{background:#2A1A20}
+/* confetti */
+.confetti{position:absolute; inset:0; pointer-events:none; z-index:5; overflow:hidden}
+.confetti i{position:absolute; top:-12px; width:9px; height:14px; border-radius:2px; animation:conf linear forwards}
+@keyframes conf{to{transform:translateY(560px) rotate(720deg); opacity:0}}
+@media (prefers-reduced-motion: reduce){ .v-spark, .ustat.on, .tape div, .pt-spark{animation:none} }
+/* subnav + bottom bar 5 item */
+.subnav{border-top:1px solid var(--line); background:var(--bg)}
+.subnav .wrap{display:flex; align-items:center; gap:4px; height:46px; overflow-x:auto; scrollbar-width:none}
+.subnav .wrap::-webkit-scrollbar{display:none}
+.sn{display:inline-flex; align-items:center; gap:7px; padding:7px 13px; border-radius:999px; text-decoration:none; font-weight:700; font-size:14px; white-space:nowrap; color:var(--ink); transition:background .15s}
+.sn svg{width:17px; height:17px; color:var(--muted)}
+.sn:hover{background:var(--surface)}
+.sn[aria-current="page"]{background:var(--ink); color:#fff} .sn[aria-current="page"] svg{color:#fff}
+.sn-promo{color:#D6334A} .sn-promo svg{color:#D6334A}
+.sn-promo[aria-current="page"]{background:linear-gradient(110deg,#E8257A,#D6334A); color:#fff}
+.sn-clearance svg{color:#B7791F} .sn-clearance[aria-current="page"]{background:#2A1A20}
+.sn-lk{font-size:11px; margin-left:-2px}
+.sn-ok{font-size:10.5px; font-weight:800; background:linear-gradient(110deg,#FFE48A,#F2B544); color:#5A3A00; border-radius:99px; padding:2px 7px}
+.sn-sp{flex:1; min-width:12px}
+.sn-l{font-weight:600; color:var(--muted)}
+.dd-quick{display:grid; grid-template-columns:1fr 1fr; gap:6px; margin-bottom:12px}
+nav.main .ql, .dr-quick .ql{display:flex; align-items:center; gap:8px; padding:9px 10px; border-radius:14px; background:var(--surface); font-weight:700; font-size:14px; text-decoration:none; color:var(--ink)}
+.ql svg{width:18px; height:18px; flex:none}
+.ql-promo{color:#D6334A!important; background:#FDE6EC!important} .ql-clearance{background:#FFF1C9!important} .ql-clearance svg{color:#B7791F}
+nav.main .ql:hover{filter:brightness(.97)}
+.ql .sn-lk{margin-left:auto}
+.dr-quick{display:grid; grid-template-columns:1fr 1fr; gap:8px; margin-bottom:14px}
+.dr-h{font-size:12px; font-weight:800; letter-spacing:.12em; color:var(--muted); margin:0 0 8px; text-transform:uppercase}
+.lpvault{display:flex; align-items:center; gap:16px; padding:16px 18px; border-radius:22px; margin-bottom:20px; text-decoration:none; color:#fff; background:radial-gradient(120% 140% at 0% 0%,#FF5C93,#D6334A 55%,#7A1E31)}
+.lpvault .v-lock{width:52px; height:52px; margin:0; flex:none} .lpvault .v-lock .lk-ic{width:26px; height:26px}
+.lpvault > span:nth-child(2){flex:1} .lpvault b{display:block; font-size:16.5px} .lpvault small{opacity:.85; font-size:13.5px}
+.lpvault .btn{color:#B5243A; flex:none}
+.lpvault:hover .shackle{transform:translateY(-3px) rotate(-14deg); transform-origin:16px 11px}
+@media (max-width:760px){
+  .subnav{display:none}
+  .bbar{gap:2px; padding-left:6px; padding-right:6px}
+  .bbar > a, .bbar > button{font-size:11.5px; position:relative}
+  .bbar .bb-m{flex:1.35}
+  .bb-pill{height:42px; font-size:13.5px; gap:5px}
+  .bb-x.on{color:#D6334A}
+  .bb-lock{position:absolute; top:3px; right:calc(50% - 20px); width:8px; height:8px; border-radius:50%; background:var(--kunyit); box-shadow:0 0 0 2px var(--bg)}
+  .lpvault{flex-wrap:wrap} .lpvault .btn{width:100%}
+}
+@media (max-width:360px){ .bbar > a > span, .bbar > button > span{font-size:10.5px} }
+@media (min-width:761px){ html{scroll-padding-top:130px} .dside{top:116px; height:calc(100vh - 116px)} .dash{min-height:calc(100vh - 116px)} .filters{top:134px} .cart-sum,.tukar{top:136px} }
+.aktiles{grid-template-columns:repeat(5,minmax(0,1fr)); gap:12px}
+.aktiles button{flex-direction:column; align-items:flex-start; gap:10px; padding:16px}
+.aktiles .tch{display:none}
+.aktiles .tt small{white-space:normal}
+.aktiles button[data-ak="promo"] .ti{background:#FDE6EC; color:#E8257A} .aktiles button[data-ak="clearance"] .ti{background:#FFF1C9; color:#B7791F}
+.aktiles button[data-ak="promo"][aria-current="true"]{background:radial-gradient(120% 140% at 0% 0%,#FF5C93,#E8257A 45%,#9F1D35)}
+.aktiles button[data-ak="clearance"][aria-current="true"]{background:#2A1A20}
+.aktiles button[aria-current="true"] .ti{background:rgba(255,255,255,.18)!important; color:#fff!important}
+.akvip{display:flex; justify-content:space-between; align-items:flex-end; gap:16px; flex-wrap:wrap; padding:26px 28px; border-radius:26px; margin-bottom:20px; color:#fff; background:radial-gradient(90% 140% at 0% 0%,#FF5C93 0%,#E8257A 35%,#C7213F 65%,#7A1E31 100%); position:relative; overflow:hidden}
+.akvip h2{color:#fff; font-size:clamp(1.8rem,3.4vw,2.6rem)} .akvip h2 .bolt{color:#FFD36B} .akvip p{margin:6px 0 0; opacity:.9}
+.akclr{border-radius:26px; overflow:hidden; margin-bottom:20px; background:linear-gradient(180deg,#FFF3CF,#FFE7A8)}
+.akclr-in{display:flex; justify-content:space-between; align-items:flex-end; gap:16px; flex-wrap:wrap; padding:22px 28px 26px}
+.akclr h2{font-size:clamp(1.8rem,3.4vw,2.6rem); display:flex; align-items:center; gap:12px} .akclr p{margin:6px 0 0; color:#6B5058}
+.akgrid{margin-bottom:10px}
+@media (max-width:1024px){ .aktiles{grid-template-columns:repeat(3,minmax(0,1fr))} }
+@media (max-width:640px){ .aktiles{grid-template-columns:1fr 1fr} .aktiles button{flex-direction:row; align-items:center} .aktiles .ti{width:40px; height:40px} .aktiles .tt small{font-size:12px} .akvip,.akclr-in{padding:20px} }
+/* akun: ikon bulat */
+.akicons{display:grid; grid-template-columns:repeat(5,minmax(0,1fr)); gap:6px; background:#fff; border:1px solid var(--line); border-radius:26px; padding:18px 10px 14px; margin-top:-40px; position:relative; z-index:2; box-shadow:0 20px 40px -28px rgba(80,10,25,.55)}
+.akicons button{all:unset; box-sizing:border-box; cursor:pointer; display:flex; flex-direction:column; align-items:center; gap:8px; text-align:center; border-radius:16px; padding:4px 2px}
+.akicons button:focus-visible{outline:3px solid var(--kunyit); outline-offset:2px}
+.ic-c{position:relative; width:60px; height:60px; border-radius:50%; display:grid; place-items:center; background:var(--surface); color:#7A5E66; transition:transform .18s cubic-bezier(.2,.7,.2,1), box-shadow .18s, background .18s}
+.ic-c svg{width:26px; height:26px}
+.akicons button:hover .ic-c{transform:translateY(-3px)}
+.ic-l{font-size:13.5px; font-weight:700; color:#6B5058; line-height:1.2}
+.ai-poin .ic-c{background:#FDE6EC; color:#D6334A}
+.ai-promo .ic-c{background:#FCE0EE; color:#E8257A}
+.ai-clearance .ic-c{background:#FFF1C9; color:#B7791F}
+.ai-profil .ic-c, .ai-password .ic-c{background:#F3EEF9; color:#7C66C2}
+.akicons button[aria-current="true"] .ic-c{color:#fff; transform:translateY(-3px); box-shadow:0 0 0 4px #fff, 0 0 0 6px currentColor, 0 14px 22px -10px rgba(80,10,25,.6)}
+.akicons .ai-poin[aria-current="true"] .ic-c{background:#D6334A; color:#fff; box-shadow:0 0 0 4px #fff, 0 0 0 6px #D6334A, 0 14px 22px -10px rgba(214,51,74,.7)}
+.akicons .ai-promo[aria-current="true"] .ic-c{background:#E8257A; box-shadow:0 0 0 4px #fff, 0 0 0 6px #E8257A, 0 14px 22px -10px rgba(232,37,122,.7)}
+.akicons .ai-clearance[aria-current="true"] .ic-c{background:#F2B544; color:#3A2400; box-shadow:0 0 0 4px #fff, 0 0 0 6px #F2B544, 0 14px 22px -10px rgba(242,181,68,.8)}
+.akicons .ai-profil[aria-current="true"] .ic-c, .akicons .ai-password[aria-current="true"] .ic-c{background:#7C66C2; box-shadow:0 0 0 4px #fff, 0 0 0 6px #7C66C2, 0 14px 22px -10px rgba(124,102,194,.7)}
+.akicons button[aria-current="true"] .ic-l{color:#2A1A20}
+.ic-b{position:absolute; top:-4px; right:-8px; min-width:22px; height:22px; padding:0 6px; border-radius:99px; background:#2A1A20; color:#fff; font-style:normal; font-size:11.5px; font-weight:800; display:grid; place-items:center; border:2px solid #fff}
+.ic-b.warn{background:#F2B544; color:#3A2400; min-width:20px; padding:0}
+@media (max-width:640px){ .akicons{padding:16px 4px 12px; gap:2px; border-radius:22px} .ic-c{width:50px; height:50px} .ic-c svg{width:22px; height:22px} .ic-l{font-size:12px} .ic-b{right:-10px; min-width:20px; height:20px; font-size:10.5px} }
 /* selalu mode terang */
 :root{color-scheme:light only!important; --bg:#FFFFFF!important; --surface:#FFF4F5!important; --surface-2:#FBE4E7!important; --ink:#2A1A20!important; --muted:#7A5E66!important; --line:#F1D5DA!important; --red:#D6334A!important; --red-deep:#B5243A!important; --card:#FFFFFF!important; --kunyit:#E9A12B!important; --daun:#2F6B4F!important; --danger:#B42318!important; --shadow:0 1px 0 rgba(42,26,32,.06), 0 10px 30px -18px rgba(150,30,50,.35)!important}
 html,body{background:#FFFFFF; color:#2A1A20}
@@ -914,6 +1131,7 @@ html,body{background:#FFFFFF; color:#2A1A20}
     <button class="menu-btn" id="menu-btn" aria-label="Buka menu" aria-expanded="false" aria-controls="drawer"><svg viewBox="0 0 24 24" width="24" height="24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" aria-hidden="true"><path d="M4 7h16M4 12h16M4 17h10"/></svg></button>
     <form class="search-top" id="search-top" role="search"><label class="sr" for="q-top">Cari produk</label><input id="q-top" type="search" placeholder="Cari produk, brand, atau kategori" enterkeyhint="search"><button aria-label="Cari"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round"><circle cx="11" cy="11" r="7"/><path d="m20 20-3.5-3.5"/></svg></button></form>
   </div>
+  <nav class="subnav" aria-label="Belanja cepat"><div class="wrap" id="subnav-in"></div></nav>
 </header>
 
 <main>
@@ -926,13 +1144,14 @@ html,body{background:#FFFFFF; color:#2A1A20}
   <div id="v-privasi" hidden></div>
   <div id="v-lokasi" hidden></div>
   <div id="v-keranjang" hidden></div>
+  <div id="v-akun" hidden></div>
 </main>
 
 <footer id="footer">
   <div class="wrap fgrid">
     <div><a class="brand" href="#" aria-label="Linda Kosmetik"><span class="mk mk-woman" aria-hidden="true"></span><span class="stack" aria-hidden="true"><span class="mk mk-word"></span><span class="mk mk-sub"></span></span></a><div id="foot-tag"></div></div>
     <nav aria-label="Halaman"><h3>Linda Kosmetik</h3><a href="#tentang">Kenalan Ce Linda</a><a href="#lokasi">Lokasi Toko</a><a href="#privasi">Kebijakan Privasi</a><a href="#dashboard" id="foot-dash" hidden>Dashboard admin</a></nav>
-    <nav aria-label="Belanja"><h3>Belanja</h3><a href="#produk">Katalog</a><a href="#" data-go="promo">Promo Member</a><a href="#member">Member</a></nav>
+    <nav aria-label="Belanja"><h3>Belanja</h3><a href="#produk">Katalog</a><a href="#" data-go="seg:new">Yang Baru</a><a href="#" data-go="seg:pick">Ce Linda’s Pick</a><a href="#member">Member</a></nav>
     <div id="foot-info"></div>
   </div>
   <div class="wrap fcopy">© <span id="fy"></span> Linda Kosmetik Palembang</div>
@@ -989,7 +1208,7 @@ const MENU=[["Utama",[["ringkasan","Ringkasan"]]],["Katalog",[["produk","Produk"
 
 const S={db:null,user:null,assets:null,downloads:null,uid:null,admin:false,owner:false,role:"admin",canWrite:false,
   settings:{...DEFAULTS},products:[],kategori:[],brands:[],katalog:[],banners:[],
-  anggota:[],kartu:{},pendaftaran:[],stats:[],audit:[],akses:[],myReg:null,
+  anggota:[],kartu:{},pendaftaran:[],profil:[],stats:[],audit:[],akses:[],myReg:null,
   member:null,regLocal:null,unlocked:false,view:"beranda",pid:null,bIdx:0,f:{q:"",kat:[],brand:[],min:"",max:"",promo:false,seg:"",sort:"baru"},fOpen:false,
   dsec:"ringkasan",range:30,sel:null,mode:"tambah",mtab:"baru",dirty:false,writing:false,loaded:false};
 
@@ -1094,10 +1313,10 @@ function route(){
   const h=decodeURIComponent(location.hash.slice(1));
   let v="beranda",pid=null;
   if(h.startsWith("p-")){v="detail";pid=h.slice(2)}
-  else if(["produk","member","tentang","privasi","lokasi","keranjang"].includes(h))v=h;
+  else if(["produk","member","tentang","privasi","lokasi","keranjang","akun"].includes(h))v=h;
   else if(h==="dashboard"&&S.admin)v="dashboard";
   S.view=v;S.pid=pid;
-  ["beranda","produk","detail","member","dashboard","tentang","privasi","lokasi","keranjang"].forEach(x=>$("#v-"+x).hidden=x!==v);
+  ["beranda","produk","detail","member","dashboard","tentang","privasi","lokasi","keranjang","akun"].forEach(x=>$("#v-"+x).hidden=x!==v);
   $("#footer").hidden=v==="dashboard";
   document.body.classList.toggle("ohome",v==="beranda");
   $("#dash-fab").hidden=true;const fd=$("#foot-dash");if(fd)fd.hidden=!S.admin;
@@ -1112,24 +1331,33 @@ function onScroll(){const h=$("header.top");if(!document.body.classList.contains
 addEventListener("scroll",onScroll,{passive:true});
 document.addEventListener("click",e=>{const a=e.target.closest("[data-home-sec]");if(!a)return;e.preventDefault();const id=a.dataset.homeSec;const jump=()=>{const el=document.getElementById(id);if(el)el.scrollIntoView()};if(S.view!=="beranda"){location.hash="";setTimeout(jump,90)}else jump()});
 addEventListener("hashchange",route);
+const SNI={new:'<path d="M12 3l2.2 5.4 5.8.5-4.4 3.8 1.3 5.7L12 15.4l-4.9 3 1.3-5.7L4 8.9l5.8-.5Z"/>',promo:'<path d="M13 2 4 14h7l-1 8 9-12h-7Z"/>',clearance:'<circle cx="7.5" cy="7.5" r="2.5"/><circle cx="16.5" cy="16.5" r="2.5"/><path d="M19 5 5 19"/>',pick:'<path d="M2 8h20"/><path d="M3 8h8c0 4-2 7-4.5 7S3 12 3 8Z"/><path d="M13 8h8c0 4-2 7-4.5 7S13 12 13 8Z"/>',brand:'<path d="M3 12V4h8l10 10-8 8Z"/><circle cx="7.5" cy="8.5" r="1.5"/>'};
+const sni=k=>`<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">${SNI[k]}</svg>`;
+function snActive(){if(S.view!=="produk")return "";const f=S.f;return f.promo?"promo":f.seg||""}
+function quickLinks(){const lk=S.unlocked?"":`<span class="sn-lk" title="Khusus member">🔒</span>`;
+  return [["new","seg:new","Yang Baru",""],["pick","seg:pick","Ce Linda’s Pick",""]].map(([k,g,l,x])=>`<a href="#" data-go="${g}" class="ql ql-${k}" data-close>${sni(k)}<span>${l}</span>${x}</a>`).join("")}
+function renderSubnav(){const a=snActive(),lk=S.unlocked?`<span class="sn-ok">Terbuka</span>`:`<span class="sn-lk" title="Khusus member">🔒</span>`;
+  const it=[["new","seg:new","Yang Baru",""],["pick","seg:pick","Ce Linda’s Pick",""]];
+  $("#subnav-in").innerHTML=it.map(([k,g,l,x])=>`<a href="#" data-go="${g}" class="sn sn-${k}"${a===k?' aria-current="page"':""}>${sni(k)}<span>${l}</span>${x}</a>`).join("")+`<a href="#" class="sn" data-home-sec="sec-brand">${sni("brand")}<span>Brand</span></a><span class="sn-sp"></span><a href="#tentang" class="sn sn-l"${S.view==="tentang"?' aria-current="page"':""}>Kenalan Ce Linda</a><a href="#lokasi" class="sn sn-l"${S.view==="lokasi"?' aria-current="page"':""}>Lokasi Toko</a>`;
+  $$(".bbar [data-bb]").forEach(b=>{b.classList.toggle("on",a===b.dataset.bb);const l=b.querySelector(".bb-lock");if(l)l.hidden=S.unlocked});$("#bb-kat").classList.toggle("on",S.view==="produk"||S.view==="detail")}
 function katIcon(k,i){const cols=Object.keys(PASTEL),P=PASTEL[k.warna]||PASTEL[cols[i%cols.length]];return `<span class="ki" style="background:${P.bg1}"><svg viewBox="48 28 104 130">${shape(shapeFor({nama:k.nama}),P,"")}</svg></span>`}
 function renderMenus(){
   const kats=S.kategori.slice().sort(byUrut), V=visible();
   const items=kats.map((k,i)=>`<a href="#" data-go="kat:${esc(k._id)}" class="dd-i">${katIcon(k,i)}<span>${esc(k.nama)}</span><small>${V.filter(p=>p.kategoriId===k._id).length}</small></a>`).join("");
-  $("#dd-menu").innerHTML=`<div class="dd-h">Kategori</div><div class="dd-grid">${items||'<span class="muted" style="padding:8px">Belum ada kategori.</span>'}</div><a href="#" data-go="produk" class="dd-all">Lihat semua produk →</a>`;
+  const QL=quickLinks();$("#dd-menu").innerHTML=`<div class="dd-h">Belanja cepat</div><div class="dd-quick">${QL}</div><div class="dd-h">Kategori</div><div class="dd-grid">${items||'<span class="muted" style="padding:8px">Belum ada kategori.</span>'}</div><a href="#" data-go="produk" class="dd-all">Lihat semua produk →</a>`;
   const ml=S.member?"Kartu saya":S.unlocked?"Member":"Daftar member";
-  $("#drawer-nav").innerHTML=`<div class="dr-sub">${kats.map((k,i)=>`<a href="#" data-go="kat:${esc(k._id)}" data-close class="dr-k">${katIcon(k,i)}<span>${esc(k.nama)}</span><small>${V.filter(p=>p.kategoriId===k._id).length}</small></a>`).join("")}</div><a href="#" data-go="produk" data-close class="btn btn-red dr-all">Lihat semua produk</a>`;
-  const bl=$("#bb-member .lbl");if(bl)bl.textContent=S.member?"Kartu saya":"Member";$$("#bb-member .ping").forEach(p=>p.hidden=S.unlocked);
-  $("#bb-kat").classList.toggle("on",S.view==="produk"||S.view==="detail");
+  $("#drawer-nav").innerHTML=`<div class="dr-quick">${QL}</div><div class="dr-h">Kategori</div><div class="dr-sub">${kats.map((k,i)=>`<a href="#" data-go="kat:${esc(k._id)}" data-close class="dr-k">${katIcon(k,i)}<span>${esc(k.nama)}</span><small>${V.filter(p=>p.kategoriId===k._id).length}</small></a>`).join("")}</div><a href="#" data-go="produk" data-close class="btn btn-red dr-all">Lihat semua produk</a>`;
+  const bl=$("#bb-member .lbl");if(bl)bl.textContent=S.member?"Akun":"Member";$$("#bb-member .ping").forEach(p=>p.hidden=S.unlocked);
+
 }
 function openDrawer(o){const d=$("#drawer");if(o){d.hidden=false;requestAnimationFrame(()=>{d.classList.add("show");$("#drawer-back").classList.add("show")});$("#menu-btn").setAttribute("aria-expanded","true");$("#drawer-x").focus()}else{d.classList.remove("show");$("#drawer-back").classList.remove("show");$("#menu-btn").setAttribute("aria-expanded","false");setTimeout(()=>{if(!d.classList.contains("show"))d.hidden=true},300)}}
 $("#menu-btn").onclick=()=>openDrawer(true);$("#bb-kat").onclick=()=>openDrawer(true);$("#drawer-x").onclick=()=>openDrawer(false);$("#drawer-back").onclick=()=>openDrawer(false);
 $("#drawer").addEventListener("click",e=>{if(e.target.closest("[data-close]"))openDrawer(false)});
 document.addEventListener("keydown",e=>{if(e.key==="Escape"&&!$("#drawer").hidden)openDrawer(false)});
 $("#dd-menu").addEventListener("click",e=>{if(e.target.closest("a")){const a=document.activeElement;if(a&&a.blur)a.blur();$(".dd").classList.add("closed");setTimeout(()=>$(".dd").classList.remove("closed"),400)}});
-function renderMemberNav(){renderMenus();const fm=$("#fab-member span");if(fm)fm.textContent=S.member?"Kartu saya":S.unlocked?"Member":"Daftar member";$("#fab-member").hidden=S.view==="member"||S.view==="dashboard";$("#nav-member span").textContent=S.member?"Kartu saya":S.unlocked?"Member":"Daftar member";$("#mnav-member .lbl").textContent=S.member?"Kartu":"Member";$$(".ping").forEach(p=>p.hidden=S.unlocked)}
+function renderMemberNav(){renderMenus();renderSubnav();const ak=!!S.member,ini=ak?esc((S.member.panggilan||"M").charAt(0).toUpperCase()):"";[["#nav-member","akun"],["#fab-member","akun"],["#bb-member","akun"]].forEach(([s])=>{const a=$(s);if(!a)return;a.setAttribute("href",ak?"#akun":"#member");a.dataset.nav=ak?"akun":"member";a.classList.toggle("is-akun",ak);let av=a.querySelector(".av-i");if(ak&&!av){av=document.createElement("span");av.className="av-i";av.setAttribute("aria-hidden","true");a.querySelector("svg")?.after(av)}if(av){av.textContent=ini;av.hidden=!ak}});const fm=$("#fab-member span:not(.av-i)");if(fm)fm.textContent=S.member?"Akun saya":S.unlocked?"Member":"Daftar member";$("#fab-member").hidden=S.view==="member"||S.view==="dashboard"||S.view==="akun";$("#nav-member span:not(.av-i)").textContent=S.member?"Akun Saya":S.unlocked?"Member":"Daftar member";$("#mnav-member .lbl").textContent=S.member?"Kartu":"Member";$$(".ping").forEach(p=>p.hidden=S.unlocked)}
 function render(){
-  renderContact();renderMemberNav();updCartBadge();
+  renderContact();renderMemberNav();updCartBadge();watchKartu();
   if(S.view==="beranda")renderHome();
   else if(S.view==="produk")renderList();
   else if(S.view==="detail")renderDetail();
@@ -1139,6 +1367,7 @@ function render(){
   else if(S.view==="privasi")renderPrivasi();
   else if(S.view==="lokasi")renderLokasi();
   else if(S.view==="keranjang")renderCart();
+  else if(S.view==="akun")renderAkun();
 }
 
 /* ---------- beranda ---------- */
@@ -1161,6 +1390,21 @@ const PAD='<svg class="pad" viewBox="0 0 24 24" fill="none" stroke="currentColor
 function sec(id,title,sub,more,inner,cls){return `<section class="blk ${cls||""}" id="${id}"><div class="wrap"><div class="sec-head"><div><h2>${title}</h2>${sub?`<p>${sub}</p>`:""}</div>${more||""}</div>${inner}</div></section>`}
 function gatedRail(list,label){if(S.unlocked)return `<div class="g5">${list.slice(0,10).map(pcard).join("")}</div>`;const show=list.slice(0,TEASE),rest=list.length-show.length;
   return `<div class="g5">${show.map(pcard).join("")}${rest>0?`<a class="lock lock2" href="#member"><span class="mk mk-woman" aria-hidden="true"></span>${PAD}<b>+${rest} produk lagi</b><span>Masuk member untuk lihat semua ${label}.</span><span class="btn btn-white btn-sm">Masuk member</span><span class="lk">Belum member? Daftar gratis</span></a>`:""}</div>`}
+const LOCKSVG='<svg class="lk-ic" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" aria-hidden="true"><path class="shackle" d="M8 11V7a4 4 0 0 1 8 0v4"/><rect x="5" y="11" width="14" height="10" rx="2.5" fill="currentColor" fill-opacity=".15"/><circle cx="12" cy="16" r="1.4" fill="currentColor"/></svg>';
+const UNLOCKSVG='<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" aria-hidden="true"><path d="M8 11V7a4 4 0 0 1 7.6-1.7"/><rect x="5" y="11" width="14" height="10" rx="2.5"/><circle cx="12" cy="16" r="1.4" fill="currentColor"/></svg>';
+function vault(list,shown,label){const hidden=list.slice(shown),rest=hidden.length;if(rest<=0)return "";
+  return `<a class="vault" href="#member" aria-label="${rest} produk ${esc(label)} lagi khusus member. Masuk atau daftar member untuk membuka."><div class="v-stack" aria-hidden="true">${hidden.slice(0,3).map((p,i)=>`<div class="v-ghost g${i}">${art(p)}</div>`).join("")}</div><div class="v-in"><span class="v-lock">${LOCKSVG}</span><b>+${rest} produk</b><span>khusus member</span><span class="btn btn-white btn-sm">Buka sekarang</span><span class="v-sub">Masuk atau daftar gratis</span></div></a>`}
+function gatedGrid(list,label){if(S.unlocked)return `<div class="g5">${list.slice(0,10).map(pcard).join("")}</div>`;return `<div class="g5">${list.slice(0,TEASE).map(pcard).join("")}${vault(list,TEASE,label)}</div>`}
+function statusChip(n){return S.unlocked?`<span class="ustat on">${UNLOCKSVG}<span>Terbuka${S.member?` untuk ${esc(S.member.panggilan)}`:" untukmu"}</span></span>`:`<span class="ustat">${LOCKSVG}<span>${Math.min(TEASE,n)} dari ${n} tampil</span></span>`}
+function vipSection(list){const more=S.unlocked?`<button class="more v-more" data-go="promo">Lihat semua →</button>`:"";
+  return `<section class="vip" id="sec-promo" data-cel="promo"><div class="v-spark" aria-hidden="true"></div><div class="wrap"><div class="v-head"><div><div class="v-eye">MEMBER ONLY · 멤버 전용</div><h2>${BOLT}Promo Member</h2><p>${S.unlocked?"Harga member dan Flash Sale, semuanya sudah terbuka. Sebutkan kode member saat pesan.":"Flash Sale dan harga khusus member. Sebagian besar masih terkunci, buka gratis dengan jadi member."}</p></div><div class="v-right">${statusChip(list.length)}${more}</div></div>
+  ${S.unlocked?`<div class="v-yay"><span>✦</span> Selamat! Semua Promo Member sudah terbuka buat kamu. <span>✦</span></div>`:""}${gatedGrid(list,"Promo Member")}</div></section>`}
+function lastCallSection(list){const more=S.unlocked?`<button class="more" data-go="seg:clearance">Lihat semua →</button>`:"";const tape=`<div class="tape" aria-hidden="true"><div>${Array(10).fill("LAST CALL ✦ STOK TERAKHIR ✦ CLEARANCE ✦ ").join("")}</div></div>`;
+  return `<section class="lastcall" id="sec-clearance" data-cel="clearance">${tape}<div class="wrap"><div class="v-head"><div><div class="v-eye">LAST CALL · 마지막 기회</div><h2>Clearance <span class="pctstk">%</span></h2><p>${S.unlocked?"Stok terakhir harga miring, semuanya sudah terbuka untukmu. Siapa cepat dia dapat.":"Stok terakhir dengan harga miring. Sisanya khusus member."}</p></div><div class="v-right">${statusChip(list.length)}${more}</div></div>${gatedGrid(list,"Clearance")}</div>${tape}</section>`}
+/* confetti saat terbuka */
+const celIO="IntersectionObserver" in window?new IntersectionObserver(es=>es.forEach(e=>{if(e.isIntersecting){celIO.unobserve(e.target);confetti(e.target)}}),{threshold:.35}):null;
+function celebrateWatch(){if(!S.unlocked||reduce||!celIO)return;$$("[data-cel]").forEach(s=>{const k="linda-cel-"+s.dataset.cel;let done=false;try{done=sessionStorage.getItem(k)==="1"}catch(e){}if(!done){try{sessionStorage.setItem(k,"1")}catch(e){}celIO.observe(s)}})}
+function confetti(sec){const box=document.createElement("div");box.className="confetti";box.setAttribute("aria-hidden","true");const cols=["#FFD36B","#FF7AAE","#fff","#C6B8EF","#A5D9C1","#D6334A"];for(let i=0;i<46;i++){const p=document.createElement("i");p.style.left=Math.random()*100+"%";p.style.background=cols[i%cols.length];p.style.animationDelay=(Math.random()*.5)+"s";p.style.animationDuration=(1.6+Math.random()*1.4)+"s";p.style.transform=`rotate(${Math.random()*360}deg)`;if(i%3===0)p.style.borderRadius="50%";box.appendChild(p)}sec.appendChild(box);setTimeout(()=>box.remove(),3600)}
 function spCard(p){const b=brandOf(p.brandId);return `<article class="sp-card" data-imp="${esc(p._id)}"><div class="ph">${art(p)}</div><div><span class="badge b-sp">Sponsor</span><h3><a class="plink" href="#p-${esc(p._id)}">${esc(p.nama)}</a></h3>${b?`<div class="muted" style="font-size:13px;font-weight:700;margin-bottom:4px">${esc(b.nama)}</div>`:""}${priceHtml(p)}<div>${waBtn(p,"btn-sm")}</div></div></article>`}
 function storefront(){
   return `<svg class="store-art" viewBox="0 0 420 360" role="img" aria-label="Ilustrasi toko Linda Kosmetik">
@@ -1217,7 +1461,7 @@ function memberClub(s){const per=num(s.rupiahPerPoin||10000);
   return `<section class="blk" id="sec-member"><div class="wrap"><div class="club">
   <div class="club-copy"><div class="veyebrow" style="color:#D6334A">LINDA MEMBER CLUB · 멤버십</div><h2>${esc(s.mJudul||DEFAULTS.mJudul)}</h2><p>${esc(s.mTeks||DEFAULTS.mTeks)}</p>
   <div class="perks4">${perks.map(([i,a,b])=>`<div><span class="pi"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">${MI[i]}</svg></span><b>${a}</b><span>${b}</span></div>`).join("")}</div>
-  <div class="actions"><a class="btn btn-red club-cta" href="#member">${esc(S.member?"Lihat kartu saya":S.unlocked?"Lihat status member":(s.mTombol||DEFAULTS.mTombol))} <span aria-hidden="true">→</span></a>${S.unlocked?"":`<a class="club-in" href="#member">Sudah member? Masuk</a>`}</div></div>
+  <div class="actions"><a class="btn btn-red club-cta" href="${S.member?"#akun":"#member"}">${esc(S.member?"Buka Akun Saya":S.unlocked?"Lihat status member":(s.mTombol||DEFAULTS.mTombol))} <span aria-hidden="true">→</span></a>${S.unlocked?"":`<a class="club-in" href="#member">Sudah member? Masuk</a>`}</div></div>
   <div class="club-cards" aria-hidden="true"><div class="ccard back"><span class="mk mk-word"></span></div><div class="ccard holo"><div class="cc-top"><span class="mk mk-word"></span><span class="cc-tag">MEMBER</span></div><div class="cc-chip"></div><div class="cc-bot"><div><small>NAMA</small><b>Nama Kamu</b></div><div><small>KODE</small><b>LND-0000</b></div></div><span class="mk mk-woman"></span>${star(0,0,0)}</div><span class="cstk s1">${LIPS}</span><span class="cstk s2">FREE</span><span class="cstk s3">✦ 1 menit</span></div>
   </div></div></section>`}
 function spMini(p){const b=brandOf(p.brandId),x=pr(p);return `<article class="spm" data-imp="${esc(p._id)}"><div class="ph">${art(p)}${x.pct?`<span class="badge b-promo">-${x.pct}%</span>`:""}</div>${b?`<div class="bn">${esc(b.nama)}</div>`:""}<h3><a class="plink" href="#p-${esc(p._id)}">${esc(p.nama)}</a></h3><div class="pp">${x.mem?`<b>${rp(x.mem)}</b><s>${rp(x.now)}</s>`:`<b class="n">${rp(x.now)}</b>`}</div>${p.stok==="habis"?"":`<button class="spadd" data-add="${esc(p._id)}" aria-label="Tambah ${esc(p.nama)} ke keranjang">+</button>`}</article>`}
@@ -1231,14 +1475,14 @@ function renderHome(){
   const lockSub=(n,txt)=>S.unlocked?txt:`${txt} ${Math.min(TEASE,n)} dari ${n} produk tampil, sisanya khusus member.`;
   const out=[heroHtml()];
   if(sp.length)out.push(sec("sec-sponsor","Produk sponsor",`${sp.length} produk pilihan minggu ini.`,"",`<div class="g6">${sp.slice(0,12).map(spMini).join("")}</div>`));
-  if(pm.length)out.push(sec("sec-promo",BOLT+"Promo Member",lockSub(pm.length,"Flash Sale dan harga khusus member."),S.unlocked?more("promo"):"",gatedRail(pm,"Promo Member"),"band"));
+  if(pm.length)out.push(vipSection(pm));
   if(nw.length)out.push(sec("sec-new","Yang Baru","Baru masuk di Linda.",more("seg:new"),rail(nw.slice(0,12))));
   if(pk.length||pb.length)out.push(sec("sec-pick",`<span class="h-gl">${GLASSES}</span>Ce Linda’s Pick`,"Brand dan produk yang dipilih langsung sama Ce Linda.",pk.length?more("seg:pick"):"",`<div class="rail pickrail">${pb.map(b=>{const n=V.filter(p=>p.brandId===b._id).length;return `<button class="pbrand" data-go="brand:${esc(b._id)}"><span class="pb-tag">Brand pilihan Ce Linda</span><span class="pb-logo">${b.logoId?`<img src="assets/${esc(b.logoId)}" alt="">`:`<em>${esc(b.nama)}</em>`}</span><b>${esc(b.nama)}</b><span class="pb-go">${n?`Lihat ${n} produk →`:"Produk segera hadir"}</span><span class="st">${GLASSES}</span></button>`}).join("")}${pk.slice(0,12).map(pickCard).join("")}</div>`,"pick-band"));
-  if(cl.length)out.push(sec("sec-clearance","Clearance",lockSub(cl.length,"Stok terakhir dengan harga miring."),S.unlocked?more("seg:clearance"):"",gatedRail(cl,"Clearance")));
+  if(cl.length)out.push(lastCallSection(cl));
   if(!V.length)out.push(`<section class="blk"><div class="wrap">${empty(S.admin?"Belum ada produk":"Produk segera hadir",S.admin?"Tambahkan produk pertama dari Dashboard → Produk.":"Sementara itu, tanya stok terbaru lewat WhatsApp.")}</div></section>`);
   out.push(memberClub(s));
   if(brands.length)out.push(sec("sec-brand","Brand",`${brands.length} brand yang ada di Linda.`,"",`<div class="g8">${brands.map(b=>{const n=V.filter(p=>p.brandId===b._id).length;return `<button class="bsq${b.logoId?" haslogo":""}" data-go="brand:${esc(b._id)}"><span class="bsq-l">${b.logoId?`<img src="assets/${esc(b.logoId)}" alt="">`:`<em>${esc(b.nama)}</em>`}</span><b${b.logoId?' class="sr"':""}>${esc(b.nama)}</b><small>${n} produk</small></button>`}).join("")}</div>`,"last"));
-  $("#v-beranda").innerHTML=out.join("");bindHero();observe($("#v-beranda"));onScroll();
+  $("#v-beranda").innerHTML=out.join("");bindHero();observe($("#v-beranda"));onScroll();celebrateWatch();
 }
 
 /* popup (bottom sheet) */
@@ -1282,6 +1526,7 @@ function renderList(){
   </aside>
   <div><div class="lp-top"><div class="actions"><button class="btn btn-ghost btn-sm ftoggle" id="f-tog">${S.fOpen?"Tutup filter":"Filter"}</button><span class="muted" style="font-size:14.5px">${res.length} produk</span><div class="active-f">${act.join("")}</div></div>
   <label class="actions" style="font-size:14px;font-weight:600">Urutkan <select class="in" id="f-sort" style="width:auto;padding:8px 12px;font-size:14.5px"><option value="baru">Terbaru</option><option value="murah">Harga terendah</option><option value="mahal">Harga tertinggi</option><option value="nama">Nama A–Z</option></select></label></div>
+  ${(()=>{if(S.unlocked||!(f.promo||f.seg==="clearance"))return "";const all=f.promo?promoList():segList("clearance"),hid=all.length-Math.min(TEASE,all.length);return hid>0?`<a class="lpvault" href="#member"><span class="v-lock">${LOCKSVG}</span><span><b>+${hid} produk ${f.promo?"Promo Member":"Clearance"} masih terkunci</b><small>Masuk atau daftar member gratis untuk membuka semuanya.</small></span><span class="btn btn-white btn-sm">Buka sekarang</span></a>`:""})()}
   <div class="grid" id="lp-grid">${!S.db?empty("Katalog belum bisa dimuat",""):res.length?res.map(pcard).join(""):empty("Produk tidak ditemukan","Coba kata kunci lain atau hapus beberapa filter.")}</div></div></div></div>`;
   $("#f-sort").value=f.sort;
   const re=()=>{const pos=document.activeElement&&document.activeElement.id;const sel=pos&&document.getElementById(pos);const caret=sel&&sel.selectionStart;renderList();const n=pos&&document.getElementById(pos);if(n){n.focus();try{n.setSelectionRange(caret,caret)}catch(e){}}};
@@ -1366,6 +1611,77 @@ function renderCart(){
     $("#co-clear").onclick=()=>{S.cart=[];saveCart();renderCart();toast("Keranjang dikosongkan")}};
 }
 
+/* ---------- akun saya ---------- */
+S.akTab="poin";S.myKartu=null;let kartuUnsub=null,kartuFor=null;
+function watchKartu(){if(!S.db||!S.member){if(kartuUnsub){kartuUnsub();kartuUnsub=null;kartuFor=null}S.myKartu=null;return}if(kartuFor===S.member.kode)return;if(kartuUnsub)kartuUnsub();kartuFor=S.member.kode;kartuUnsub=S.db.doc("kartu/"+S.member.kode).onSnapshot(d=>{S.myKartu=d.exists?d.data():null;if(S.view==="akun"&&!S.akDirty)renderAkun()},()=>{})}
+function getProfil(){let p={};try{p=JSON.parse(localStorage.getItem("linda-profile")||"{}")}catch(e){}if(S.member&&p.kode&&p.kode!==S.member.kode)p={};const r=S.myReg||S.regLocal||{};return {nama:p.nama??r.nama??(S.member&&S.member.panggilan)??"",hp:p.hp??r.hp??"",email:p.email??r.email??"",alamat:p.alamat??r.alamat??""}}
+async function pushProfil(extra){const p=getProfil();if(!(S.db&&S.uid&&S.canWrite))return false;let cur={};try{const d=await S.db.doc("profil/"+S.uid).get();if(d.exists)cur=d.data()}catch(e){}await S.db.doc("profil/"+S.uid).set({...cur,...p,...(extra||{}),kode:S.member.kode,uid:S.uid,status:"baru",at:Date.now()});return true}
+const AKI={poin:'<circle cx="12" cy="12" r="8.5"/><path d="M12 7v10M9.5 9.5h3.5a1.8 1.8 0 0 1 0 3.5H11a1.8 1.8 0 0 0 0 3.5h3.5"/>',profil:'<circle cx="12" cy="8" r="4"/><path d="M4 21c0-4 4-6 8-6s8 2 8 6"/>',password:'<rect x="5" y="11" width="14" height="10" rx="2"/><path d="M8 11V7a4 4 0 0 1 8 0v4"/>',keluar:'<path d="M15 4h3a2 2 0 0 1 2 2v12a2 2 0 0 1-2 2h-3"/><path d="M10 17l5-5-5-5M15 12H4"/>'};
+const aki=k=>`<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">${AKI[k]}</svg>`;
+function countUp(el){const to=Number(el.dataset.to)||0;if(reduce||to<=0){el.textContent=num(to);return}const t0=performance.now(),d=900;const step=n=>{const p=Math.min(1,(n-t0)/d);el.textContent=num(Math.round(to*(1-Math.pow(1-p,3))));if(p<1)requestAnimationFrame(step)};requestAnimationFrame(step)}
+function renderAkun(){
+  const el=$("#v-akun");watchKartu();S.akDirty=false;
+  if(!S.member){const r=S.myReg||S.regLocal;
+    el.innerHTML=crumbHead("Akun Saya","")+`<div class="wrap" style="padding-bottom:80px"><div class="panel-card main" style="max-width:560px">${r?`<h2>Akunmu sedang disiapkan</h2><p>Pendaftaranmu sudah kami terima. Akun Saya aktif setelah kamu menerima kode member lewat WhatsApp dan masuk dengan kode itu.</p>`:`<h2>Masuk dulu, yuk</h2><p>Akun Saya berisi poin, profil, dan pengaturan password. Masuk dengan kode member, atau daftar gratis kalau belum punya.</p>`}<div class="actions"><a class="btn btn-red" href="#member">${r?"Masuk dengan kode member":"Masuk / daftar member"}</a></div></div></div>`;return}
+  const k=S.myKartu||{poin:0,poinTotal:0,hist:[]}, pf=getProfil(), s=S.settings, tk=String(s.tukar||"").split("\n").filter(Boolean);
+  const poin=Number(k.poin)||0, total=Number(k.poinTotal)||0, used=Math.max(0,total-poin), pctLeft=total?Math.round(poin/total*100):0;
+  let hasPw=false;try{const lp=JSON.parse(localStorage.getItem("linda-pw")||"null");hasPw=!!(lp&&lp.kode===S.member.kode)}catch(e){}
+  const wa=waLink(`Halo Linda Kosmetik, saya mau tukar poin.\nKode member: ${S.member.kode}\nSaldo poin: ${num(poin)}\nPilihan tukar: `);
+  const PM=promoList(),CL=segList("clearance");
+  const tiles=[["poin","Riwayat poin",`${num(total)} didapat · ${num(used)} dipakai`,"poin"],["promo","Promo Member",`${PM.length} produk terbuka`,"promo"],["clearance","Clearance",`${CL.length} produk terbuka`,"clearance"],["profil","Profil","Nama, WhatsApp, email, alamat","profil"],["password","Ubah password",hasPw?"Password sudah dibuat":"Belum ada password","password"]];
+  let body="";
+  if(S.akTab==="poin"){const H=(k.hist||[]),f=S.hf||"semua",L=H.filter(h=>f==="semua"||(f==="plus"?h.p>0:h.p<0));
+    body=`<div class="ak2"><div class="panel-card main"><div class="rh-head"><h2>Riwayat poin</h2><div class="seg" role="group" aria-label="Filter riwayat">${[["semua","Semua"],["plus","Pemberian"],["minus","Pemakaian"]].map(([v,l])=>`<button data-hf="${v}" aria-pressed="${f===v}">${l}</button>`).join("")}</div></div>
+      <div class="rh-sum"><div class="up"><span>Total pemberian</span><b>+${num(total)}</b></div><div class="down"><span>Total pemakaian</span><b>−${num(used)}</b></div></div>
+      ${L.length?`<ul class="rh">${L.map(h=>`<li class="${h.p>0?"up":"down"}"><span class="rh-ic" aria-hidden="true">${h.p>0?"↑":"↓"}</span><div class="rh-t"><b>${esc(h.t)}</b><span>${h.p>0?"Poin diberikan":"Poin ditukar"}${h.at?" · "+new Date(h.at).toLocaleDateString("id-ID",{dateStyle:"medium"}):""}</span></div><b class="rh-p">${h.p>0?"+":"−"}${num(Math.abs(h.p))}</b></li>`).join("")}</ul>`:`<div class="rh-empty">${f==="minus"?"Belum ada poin yang dipakai.":f==="plus"?"Belum ada poin yang diberikan.":"Belum ada riwayat poin. Poin muncul setelah belanja pertamamu dicatat admin."}</div>`}
+      ${H.length>=30?'<p class="muted" style="font-size:13px;margin:12px 0 0">Menampilkan 30 transaksi terakhir.</p>':""}</div>
+      <aside class="panel-card tukar"><h2>Tukar poin</h2><p>Setiap belanja ${rp(s.rupiahPerPoin)} = 1 poin.</p>${tk.length?`<ul class="tkl">${tk.map(x=>`<li>${esc(x)}</li>`).join("")}</ul>`:""}${wa&&poin>0?`<a class="btn btn-wa" style="width:100%" href="${esc(wa)}" target="_blank" rel="noopener">Tukar ${num(poin)} poin via WhatsApp</a>`:`<p class="muted" style="margin:0;font-size:14px">Kumpulkan poin dulu, lalu tukar di sini.</p>`}<p class="muted" style="font-size:13px;margin:12px 0 0">Sebutkan kode <b>${esc(S.member.kode)}</b> setiap belanja supaya poinnya masuk.</p></aside></div>`}
+  if(S.akTab==="promo")body=`<div class="akvip"><div><div class="v-eye">MEMBER ONLY · 멤버 전용</div><h2>${BOLT}Promo Member</h2><p>Flash Sale dan harga khusus member. Sebutkan kode <b>${esc(S.member.kode)}</b> saat pesan.</p></div><span class="ustat on">${UNLOCKSVG}<span>${PM.length} produk terbuka</span></span></div>${PM.length?`<div class="g5 akgrid">${PM.map(pcard).join("")}</div>`:empty("Belum ada Promo Member","Pantau terus, promo baru segera hadir.")}`;
+  if(S.akTab==="clearance")body=`<div class="akclr"><div class="tape" aria-hidden="true"><div>${Array(8).fill("LAST CALL ✦ STOK TERAKHIR ✦ CLEARANCE ✦ ").join("")}</div></div><div class="akclr-in"><div><div class="v-eye" style="color:#B5243A">LAST CALL · 마지막 기회</div><h2>Clearance <span class="pctstk">%</span></h2><p>Stok terakhir dengan harga miring. Siapa cepat dia dapat.</p></div><span class="ustat on">${UNLOCKSVG}<span>${CL.length} produk terbuka</span></span></div></div>${CL.length?`<div class="g5 akgrid">${CL.map(pcard).join("")}</div>`:empty("Belum ada produk Clearance","")}`;
+  if(S.akTab==="profil")body=`<div class="panel-card main"><h2>Profil</h2><p>Perbarui datamu supaya pengiriman dan info promo tepat sasaran.</p><form id="pf-akun" autocomplete="on">
+    <div class="field"><label for="ap-n">Nama Lengkap</label><input class="in" id="ap-n" autocomplete="name" value="${esc(pf.nama)}" required></div>
+    <div class="grid2"><div class="field"><label for="ap-h">WhatsApp</label><input class="in" id="ap-h" inputmode="tel" autocomplete="tel" value="${esc(pf.hp?fmtHp(pf.hp):"")}" required></div><div class="field"><label for="ap-e">Email</label><input class="in" id="ap-e" type="email" autocomplete="email" value="${esc(pf.email)}" required></div></div>
+    <div class="field"><label for="ap-a">Alamat</label><textarea class="in" id="ap-a" autocomplete="street-address" required>${esc(pf.alamat)}</textarea></div>
+    <div class="field"><span class="lbl">Kode member</span><div class="ro">${esc(S.member.kode)}</div></div>
+    <button class="btn btn-red" id="ap-go">Simpan profil</button><div class="msg" id="ap-msg" role="status"></div></form></div>`;
+  if(S.akTab==="password")body=`<div class="panel-card main" style="max-width:620px"><h2>Ubah password</h2><p>${hasPw?"Ganti password yang kamu pakai untuk masuk.":"Buat password supaya bisa masuk tanpa 4 angka terakhir WhatsApp."}</p><form id="pw-akun" autocomplete="off">
+    ${hasPw?`<div class="field"><label for="pw-o">Password lama</label><div class="pwbox"><input class="in" id="pw-o" type="password" autocomplete="current-password" required><button type="button" class="pweye" aria-label="Tampilkan password">Lihat</button></div></div>`:""}
+    <div class="field"><label for="pw-n">Password baru</label><div class="pwbox"><input class="in" id="pw-n" type="password" autocomplete="new-password" minlength="8" required><button type="button" class="pweye" aria-label="Tampilkan password">Lihat</button></div><span class="hint">Minimal 8 karakter, kombinasi huruf dan angka.</span><div class="pwmeter" aria-hidden="true"><i></i></div></div>
+    <div class="field"><label for="pw-c">Ulangi password baru</label><div class="pwbox"><input class="in" id="pw-c" type="password" autocomplete="new-password" required><button type="button" class="pweye" aria-label="Tampilkan password">Lihat</button></div></div>
+    <button class="btn btn-red" id="pw-go">${hasPw?"Ubah password":"Simpan password"}</button><div class="msg" id="pw-msg" role="status"></div></form></div>`;
+  const pm=promoList().slice(0,8);
+  el.innerHTML=`<section class="akhero"><div class="wrap"><div class="crumb"><a href="#">Home</a> / Akun Saya</div>
+   <div class="akh-top"><div><div class="veyebrow">AKUN SAYA · 마이페이지</div><h1>Hai, ${esc(S.member.panggilan)}!</h1><p>Kode member <b>${esc(S.member.kode)}</b></p></div><button class="akout" data-ak="keluar">${aki("keluar")}Keluar</button></div>
+   <div class="akpts"><div class="pt-main"><span class="pt-l">Poin bisa ditukar</span><b class="pt-n" data-to="${poin}">${num(poin)}</b><span class="pt-s">poin</span>${wa&&poin>0?`<a class="btn btn-white btn-sm" href="${esc(wa)}" target="_blank" rel="noopener">Tukar sekarang</a>`:`<span class="pt-hint">Belanja ${rp(s.rupiahPerPoin)} = 1 poin</span>`}<span class="pt-spark" aria-hidden="true">✦</span></div>
+   <div class="pt-tot"><span class="pt-l">Total poin terkumpul</span><b class="pt-n" data-to="${total}">${num(total)}</b><div class="pt-bar" role="img" aria-label="${pctLeft}% poin masih bisa ditukar"><i style="width:${pctLeft}%"></i></div><div class="pt-leg"><span><i class="d1"></i>${num(poin)} tersisa</span><span><i class="d2"></i>${num(used)} sudah dipakai</span></div></div>
+   <div class="pt-card" aria-hidden="true"><div class="ccard holo"><div class="cc-top"><span class="mk mk-word"></span><span class="cc-tag">MEMBER</span></div><div class="cc-chip"></div><div class="cc-bot"><div><small>NAMA</small><b>${esc(S.member.panggilan)}</b></div><div><small>KODE</small><b>${esc(S.member.kode)}</b></div></div><span class="mk mk-woman"></span></div></div></div></div></section>
+  <div class="wrap"><nav class="akicons" aria-label="Menu akun">${[["poin","Poin",num(poin)],["promo","Promo",PM.length],["clearance","Clearance",CL.length],["profil","Profil",""],["password","Password",hasPw?"":"!"]].map(([v,l,bd])=>`<button data-ak="${v}" class="ai-${v}" aria-current="${S.akTab===v}"><span class="ic-c">${AKI[v]?aki(v):sni(v)}${bd!==""?`<i class="ic-b${bd==="!"?" warn":""}">${bd}</i>`:""}</span><span class="ic-l">${l}</span></button>`).join("")}</nav>
+  <div class="akbody">${body}</div>
+  <div style="height:72px"></div></div>`;
+  observe(el);$$("#v-akun .pt-n").forEach(countUp);
+  $$("#v-akun [data-hf]").forEach(b=>b.onclick=()=>{S.hf=b.dataset.hf;renderAkun()});
+  $$("#v-akun [data-ak]").forEach(b=>b.onclick=()=>{const v=b.dataset.ak;if(v==="keluar"){if(!confirm("Keluar dari akun?"))return;S.member=null;try{localStorage.removeItem("linda-member")}catch(e){}updUnlock();watchKartu();toast("Kamu sudah keluar");location.hash="member";return}S.akTab=v;renderAkun();const tb=$(".akicons");if(tb)tb.scrollIntoView({block:"nearest",behavior:reduce?"auto":"smooth"})});
+  document.addEventListener("input",e=>{if(e.target.closest("#v-akun form"))S.akDirty=true},{once:true});
+  const pf2=$("#pf-akun");
+  if(pf2)pf2.onsubmit=async e=>{e.preventDefault();const m=$("#ap-msg");const d={kode:S.member.kode,nama:$("#ap-n").value.trim(),hp:normHp($("#ap-h").value),email:$("#ap-e").value.trim().toLowerCase(),alamat:$("#ap-a").value.trim()};
+    if(d.hp.length<10){m.className="msg err";m.textContent="Nomor WhatsApp sepertinya belum lengkap.";return}
+    if(!/^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(d.email)){m.className="msg err";m.textContent="Format email belum benar.";return}
+    try{localStorage.setItem("linda-profile",JSON.stringify(d));localStorage.setItem("linda-co",JSON.stringify({...(JSON.parse(localStorage.getItem("linda-co")||"{}")),nama:d.nama,alamat:d.alamat}))}catch(err){}
+    $("#ap-go").disabled=true;let sent=false;try{sent=await pushProfil()}catch(err){}
+    S.akDirty=false;m.className="msg ok";m.textContent=sent?"Profil tersimpan. Data member akan diperbarui oleh admin.":"Profil tersimpan di perangkat ini.";$("#ap-go").disabled=false;
+    if(!sent){const wa=waLink(`Halo Linda Kosmetik, saya mau ubah data member.\nKode: ${d.kode}\nNama: ${d.nama}\nWhatsApp: ${d.hp}\nEmail: ${d.email}\nAlamat: ${d.alamat}`);if(wa)m.innerHTML+=` <a href="${esc(wa)}" target="_blank" rel="noopener" style="color:var(--red);font-weight:700">Kirim perubahan ke admin via WhatsApp</a>`}};
+  const pw=$("#pw-akun");
+  if(pw){$$(".pweye",pw).forEach(b=>b.onclick=()=>{const i=b.previousElementSibling;const show=i.type==="password";i.type=show?"text":"password";b.textContent=show?"Tutup":"Lihat";b.setAttribute("aria-label",show?"Sembunyikan password":"Tampilkan password")});
+    const n=$("#pw-n"),bar=$(".pwmeter i",pw);n.oninput=()=>{const v=n.value;let sc=0;if(v.length>=8)sc++;if(/[a-z]/i.test(v)&&/\d/.test(v))sc++;if(v.length>=12||/[^a-z0-9]/i.test(v))sc++;bar.style.width=(sc/3*100)+"%";bar.style.background=["#E5E1E3","#E9A12B","#5AA685","#2F6B4F"][sc]};
+    pw.onsubmit=async e=>{e.preventDefault();const m=$("#pw-msg"),nv=$("#pw-n").value,cv=$("#pw-c").value;m.className="msg err";
+      if(hasPw){const ov=$("#pw-o").value;const oh=await sha(S.member.kode+":pw:"+ov);let lp=null;try{lp=JSON.parse(localStorage.getItem("linda-pw")||"null")}catch(err){}if(!lp||lp.hash!==oh){m.textContent="Password lama tidak cocok.";return}}
+      if(nv.length<8||!/[a-z]/i.test(nv)||!/\d/.test(nv)){m.textContent="Password baru minimal 8 karakter dan berisi huruf serta angka.";return}
+      if(nv!==cv){m.textContent="Ulangi password belum sama.";return}
+      const h=await sha(S.member.kode+":pw:"+nv);try{localStorage.setItem("linda-pw",JSON.stringify({kode:S.member.kode,hash:h}))}catch(err){}
+      try{await pushProfil({passHash:h})}catch(err){}
+      S.akDirty=false;S.akTab="password";renderAkun();const mm=$("#pw-msg");if(mm){mm.className="msg ok";mm.textContent="Password tersimpan. Sekarang kamu bisa masuk dengan kode member dan password ini."}};}
+}
+
 /* ---------- halaman footer ---------- */
 function crumbHead(t,sub){return `<div class="wrap"><div class="page-head"><div class="crumb"><a href="#">Home</a> / ${esc(t)}</div><h1>${esc(t)}</h1>${sub?`<p class="muted" style="max-width:60ch;margin:10px 0 0">${sub}</p>`:""}</div></div>`}
 function aboutToday(){const s=S.settings,nb=S.brands.length,np=live().length,yr=new Date().getFullYear();
@@ -1400,7 +1716,7 @@ function renderPrivasi(){const s=S.settings,txt=String(s.privasi||PRIVASI_DEFAUL
   $("#v-privasi").innerHTML=crumbHead("Kebijakan Privasi","")+`<div class="wrap"><article class="prose">${txt.map(l=>l.startsWith("## ")?`<h2>${esc(l.slice(3))}</h2>`:`<p>${esc(l)}</p>`).join("")}<h2>Kontak</h2><p>Linda Kosmetik, ${esc(s.alamat||"")}${s.kota?", "+esc(s.kota):""}.${wa?` WhatsApp: <a href="${esc(wa)}" target="_blank" rel="noopener">${esc(fmtHp(s.wa))}</a>.`:""}</p></article></div>`}
 
 /* ---------- member ---------- */
-async function memberLogin(kode,l4){const d=await S.db.doc("kartu/"+kode).get();const k=d.exists?d.data():null;const h=await sha(kode+":"+l4);if(!k)return "bad";if(!k.kunci)return "nokey";if(k.kunci!==h)return "bad";S.member={kode,panggilan:k.panggilan||"Member",kunci:h};try{localStorage.setItem("linda-member",JSON.stringify(S.member))}catch(e){}updUnlock();return k}
+async function memberLogin(kode,l4){const d=await S.db.doc("kartu/"+kode).get();const k=d.exists?d.data():null;if(!k)return "bad";let h=await sha(kode+":"+l4);if(!/^\d{4}$/.test(l4)){const ph=await sha(kode+":pw:"+l4);let ok=false;try{const lp=JSON.parse(localStorage.getItem("linda-pw")||"null");if(lp&&lp.kode===kode&&lp.hash===ph)ok=true}catch(e){}if(!ok&&S.uid){try{const pd=await S.db.doc("profil/"+S.uid).get();if(pd.exists&&pd.data().kode===kode&&pd.data().passHash===ph)ok=true}catch(e){}}if(!ok)return "bad";h=k.kunci||ph}else{if(!k.kunci)return "nokey";if(k.kunci!==h)return "bad"}S.member={kode,panggilan:k.panggilan||"Member",kunci:h};try{localStorage.setItem("linda-member",JSON.stringify(S.member))}catch(e){}updUnlock();return k}
 function cardHtml(k){return `<div class="mcard"><span class="mk mk-woman" aria-hidden="true"></span><span class="mk mk-word" aria-hidden="true"></span><div class="pts"><b>${num(k.poin)}</b><span>poin</span></div><div class="who"><div class="nm">${esc(k.panggilan||"Member Linda")}</div><div class="cd">${esc(k.kode)}</div></div></div>`}
 function renderMember(){
   const s=S.settings, bl=String(s.benefit||"").split("\n").filter(Boolean), tk=String(s.tukar||"").split("\n").filter(Boolean), r=S.myReg, rl=S.regLocal;
@@ -1416,7 +1732,7 @@ function renderMember(){
     <div class="field"><label for="r-al">Alamat</label><textarea class="in" id="r-al" autocomplete="street-address" placeholder="Nama jalan, nomor rumah, kecamatan, kota" required></textarea></div>
     <button class="btn btn-red" type="submit" id="r-go" style="width:100%">Daftar sekarang, gratis</button>
     <div class="msg" id="r-msg" role="status"></div></form>`;
-  const login=S.member?"":`<div class="panel-card"><h2>Sudah member?</h2><p>Masuk dengan kode member dan 4 angka terakhir nomor WhatsApp kamu.</p><form id="login-f" autocomplete="off"><div class="grid2"><div class="field"><label for="l-kode">Kode member</label><input class="in" id="l-kode" placeholder="LND-0000" maxlength="12" style="text-transform:uppercase" required></div><div class="field"><label for="l-hp">4 angka terakhir WA</label><input class="in" id="l-hp" inputmode="numeric" maxlength="4" required></div></div><button class="btn btn-red" id="l-go">Masuk</button><div class="msg" id="l-msg" role="status"></div></form></div>`;
+  const login=S.member?"":`<div class="panel-card"><h2>Sudah member?</h2><p>Masuk dengan kode member, lalu 4 angka terakhir nomor WhatsApp atau password kamu.</p><form id="login-f" autocomplete="off"><div class="grid2"><div class="field"><label for="l-kode">Kode member</label><input class="in" id="l-kode" placeholder="LND-0000" maxlength="12" style="text-transform:uppercase" required></div><div class="field"><label for="l-hp">4 angka terakhir WA / password</label><input class="in" id="l-hp" type="password" autocomplete="current-password" maxlength="64" required></div></div><button class="btn btn-red" id="l-go">Masuk</button><div class="msg" id="l-msg" role="status"></div></form></div>`;
   const cek=S.member?`<div class="panel-card"><h2>Kartu member</h2><div id="cek-card"><p class="muted">Memuat kartu…</p></div></div>`:`<div class="panel-card"><h2>Cek poin</h2><p>Masukkan kode member kamu.</p><form class="inline-form" id="cek-form" autocomplete="off"><label class="sr" for="cek-kode">Kode member</label><input class="in" id="cek-kode" placeholder="LND-0000" maxlength="12" style="text-transform:uppercase" required><button class="btn btn-red" type="submit">Cek</button></form><div class="msg" id="cek-msg" role="status"></div><div id="cek-card"></div></div>`;
   const perks=[["tag","Harga member","Lebih murah dari harga normal."],["bolt","Promo Member","Flash Sale dan semua promo terbuka."],["box","Clearance","Akses stok terakhir harga miring."],["coin","Poin tiap belanja",`Rp${num(s.rupiahPerPoin||10000)} = 1 poin.`]];
   const PI={tag:'<path d="M3 12V4h8l10 10-8 8Z"/><circle cx="7.5" cy="8.5" r="1.5"/>',bolt:'<path d="M13 2 4 14h7l-1 8 9-12h-7Z"/>',box:'<path d="M4 8l8-4 8 4v8l-8 4-8-4Z"/><path d="M4 8l8 4 8-4M12 12v8"/>',coin:'<circle cx="12" cy="12" r="8.5"/><path d="M12 7v10M9.5 9.5h3.5a1.8 1.8 0 0 1 0 3.5H11a1.8 1.8 0 0 0 0 3.5h3.5"/>'};
@@ -1445,11 +1761,11 @@ function renderMember(){
     }else{const href=waLink(`Halo Linda Kosmetik, saya mau daftar member.\nNama: ${d.nama}\nWhatsApp: ${d.hp}\nEmail: ${d.email}\nAlamat: ${d.alamat}`);if(href){open(href,"_blank","noopener");unlock()}else{m.className="msg err";m.textContent="Pendaftaran belum bisa dikirim. Hubungi toko langsung."}}
   };
   const lf=$("#login-f");
-  if(lf)lf.onsubmit=async e=>{e.preventDefault();const kode=$("#l-kode").value.trim().toUpperCase().replace(/\s/g,""),l4=$("#l-hp").value.replace(/\D/g,""),m=$("#l-msg");m.className="msg err";
-    if(!/^LND-\d{4}$/.test(kode)){m.textContent="Format kode: LND- diikuti 4 angka.";return}if(l4.length!==4){m.textContent="Isi 4 angka terakhir nomor WhatsApp.";return}if(!S.db){m.textContent="Belum bisa masuk di tampilan ini.";return}
+  if(lf)lf.onsubmit=async e=>{e.preventDefault();const kode=$("#l-kode").value.trim().toUpperCase().replace(/\s/g,""),l4=$("#l-hp").value.trim(),m=$("#l-msg");m.className="msg err";
+    if(!/^LND-\d{4}$/.test(kode)){m.textContent="Format kode: LND- diikuti 4 angka.";return}if(l4.length<4){m.textContent="Isi 4 angka terakhir WhatsApp atau password kamu.";return}if(!S.db){m.textContent="Belum bisa masuk di tampilan ini.";return}
     m.className="msg";m.textContent="Memeriksa…";$("#l-go").disabled=true;
-    try{const res=await memberLogin(kode,l4);if(res==="bad"||res==="nokey"){m.className="msg err";m.textContent=res==="nokey"?"Akun ini belum bisa masuk. Minta admin melengkapi nomor WhatsApp kamu.":"Kode member atau nomor tidak cocok.";$("#l-go").disabled=false;return}
-      toast(`Selamat datang, ${S.member.panggilan}!`);render()}catch(err){m.className="msg err";m.textContent="Gagal memeriksa. Coba lagi.";$("#l-go").disabled=false}};
+    try{const res=await memberLogin(kode,l4);if(res==="bad"||res==="nokey"){m.className="msg err";m.textContent=res==="nokey"?"Akun ini belum bisa masuk. Minta admin melengkapi nomor WhatsApp kamu.":"Kode member, nomor, atau password tidak cocok.";$("#l-go").disabled=false;return}
+      toast(`Selamat datang, ${S.member.panggilan}!`);location.hash="akun"}catch(err){m.className="msg err";m.textContent="Gagal memeriksa. Coba lagi.";$("#l-go").disabled=false}};
   const mo=$("#m-out");if(mo)mo.onclick=()=>{S.member=null;try{localStorage.removeItem("linda-member")}catch(e){}updUnlock();render();toast("Kamu sudah keluar")};
   if(S.member&&S.db)S.db.doc("kartu/"+S.member.kode).get().then(d=>{const c=$("#cek-card");if(c&&d.exists)c.innerHTML=cardHtml(d.data())}).catch(()=>{});
   const cf=$("#cek-form");
@@ -1667,9 +1983,11 @@ async function saveSettingsPatch(patch){const cur={...S.settings};delete cur._v;
 function kartuOf(kode){return S.kartu[kode]||{poin:0,poinTotal:0}}
 function dMember(){
   const nb=S.pendaftaran.filter(r=>r.status==="baru");
-  const tabs=`<div class="seg" role="group">${[["baru",`Pendaftaran baru (${nb.length})`],["data",`Data member (${S.anggota.length})`],["laporan","Laporan"]].map(([k,l])=>`<button data-mt="${k}" aria-pressed="${S.mtab===k}">${l}</button>`).join("")}</div>`;
+  const tabs=`<div class="seg" role="group">${[["baru",`Pendaftaran baru (${nb.length})`],["ubah",`Perubahan profil (${S.profil.filter(x=>x.status==="baru").length})`],["data",`Data member (${S.anggota.length})`],["laporan","Laporan"]].map(([k,l])=>`<button data-mt="${k}" aria-pressed="${S.mtab===k}">${l}</button>`).join("")}</div>`;
   let body="";
   if(S.mtab==="baru")body=nb.length?`<div class="list" style="max-width:820px">${nb.sort((a,b)=>b.at-a.at).map(r=>`<div class="li" data-uid="${esc(r._id)}"><div class="grow"><div class="t">${esc(r.nama)}</div><div class="s">+${esc(r.hp)}${r.email?" · "+esc(r.email):""} · ${new Date(r.at).toLocaleDateString("id-ID",{dateStyle:"medium"})}</div>${r.alamat?`<div class="s">${esc(r.alamat)}</div>`:""}</div><button class="btn btn-red btn-sm" data-act="ok">Terima</button><button class="icon-btn del" data-act="no">Tolak</button></div>`).join("")}</div>`:empty("Tidak ada pendaftaran baru","Pendaftaran dari halaman Member akan muncul di sini.");
+  if(S.mtab==="ubah"){const pr2=S.profil.filter(x=>x.status==="baru").sort((a,b)=>(b.at||0)-(a.at||0));
+    body=pr2.length?`<div class="list" style="max-width:900px">${pr2.map(x=>{const a=S.anggota.find(y=>y.kode===x.kode)||{};const row=(l,o,n)=>`<div class="s">${l}: ${o!==n?`<s>${esc(o||"–")}</s> → <b style="color:var(--ink)">${esc(n||"–")}</b>`:esc(n||"–")}</div>`;return `<div class="li" data-pid="${esc(x._id)}"><div class="grow"><div class="t">${esc(x.kode)} · ${esc(a.nama||x.nama)}</div>${row("Nama",a.nama,x.nama)}${row("WhatsApp",a.hp,x.hp)}${row("Email",a.email,x.email)}${row("Alamat",a.alamat,x.alamat)}${x.passHash?'<div class="s">Password akun sudah diatur oleh member.</div>':""}</div><button class="btn btn-red btn-sm" data-act="apply">Terapkan</button><button class="icon-btn" data-act="skip">Abaikan</button></div>`}).join("")}</div>`:empty("Tidak ada perubahan profil","Perubahan yang dikirim member dari halaman Akun Saya muncul di sini.");}
   if(S.mtab==="data")body=`<div class="dbar"><button class="btn btn-red btn-sm" id="m-add">+ Tambah manual</button><label class="sr" for="m-q">Cari member</label><input class="in" id="m-q" placeholder="Cari nama, kode, nomor, email, alamat">${S.downloads?`<button class="btn btn-ghost btn-sm" id="m-csv">Unduh CSV</button>`:""}</div>
     ${S.anggota.length?`<div class="tbl-wrap"><table class="tbl"><thead><tr><th>Kode</th><th>Nama</th><th>WhatsApp</th><th>Email</th><th>Alamat</th><th>Bergabung</th><th class="num">Poin</th><th></th></tr></thead><tbody id="m-rows">${S.anggota.slice().sort((a,b)=>(b.joinedAt||0)-(a.joinedAt||0)).map(a=>`<tr data-kode="${esc(a.kode)}" data-s="${esc([a.kode,a.nama,a.hp,a.email,a.alamat].join(" ").toLowerCase())}"><td><b>${esc(a.kode)}</b></td><td>${esc(a.nama)}</td><td>${a.hp?"+"+esc(a.hp):"–"}</td><td>${a.email?`<a href="mailto:${esc(a.email)}" style="color:inherit">${esc(a.email)}</a>`:"–"}</td><td style="max-width:220px;font-size:13.5px">${esc(a.alamat||"–")}</td><td>${a.joinedAt?new Date(a.joinedAt).toLocaleDateString("id-ID",{dateStyle:"medium"}):"–"}</td><td class="num">${num(kartuOf(a.kode).poin)}</td><td class="num">${a.hp?`<a class="icon-btn" target="_blank" rel="noopener" href="${esc(waLink(`Halo ${a.nama.split(" ")[0]}! Selamat bergabung jadi member Linda Kosmetik.\nKode member kamu: ${a.kode}\nSebutkan kode ini setiap belanja supaya poinnya masuk ya.`,a.hp))}">Kirim kode</a>`:""}<button class="icon-btn" data-act="poin">Poin</button><button class="icon-btn del" data-act="del">Hapus</button></td></tr>`).join("")}</tbody></table></div>`:empty("Belum ada member","")}`;
   if(S.mtab==="laporan"){
@@ -1690,6 +2008,9 @@ async function createMember(d){const kode=await newKode();const panggilan=d.nama
   await S.db.doc("kartu/"+kode).set({kode,panggilan,poin:0,poinTotal:0,kunci:await kunciFor(kode,d.hp),updatedAt:Date.now()});log("Menambah","member",d.nama+" ("+kode+")");return kode}
 function bMember(){
   $$("[data-mt]").forEach(b=>b.onclick=()=>{S.mtab=b.dataset.mt;renderDash()});
+  if(S.mtab==="ubah")$$("#dmain .li[data-pid]").forEach(el=>{const x=S.profil.find(y=>y._id===el.dataset.pid);
+    el.querySelector('[data-act="apply"]').onclick=async()=>{try{const a=S.anggota.find(y=>y.kode===x.kode);if(a){await S.db.doc("anggota/"+x.kode).update({nama:x.nama,panggilan:(x.nama||"").split(" ")[0],hp:normHp(x.hp),email:x.email||"",alamat:x.alamat||""});await S.db.doc("kartu/"+x.kode).update({panggilan:(x.nama||"").split(" ")[0],kunci:await kunciFor(x.kode,x.hp)})}await S.db.doc("profil/"+x._id).update({status:"diterapkan"});log("Mengubah","profil member",x.nama+" ("+x.kode+")");toast("Profil diperbarui")}catch(e){toast("Gagal menerapkan")}};
+    el.querySelector('[data-act="skip"]').onclick=async()=>{try{await S.db.doc("profil/"+x._id).update({status:"diabaikan"})}catch(e){toast("Gagal")}}});
   if(S.mtab==="baru")$$("#dmain .li[data-uid]").forEach(el=>{const r=S.pendaftaran.find(x=>x._id===el.dataset.uid);
     el.querySelector('[data-act="ok"]').onclick=async()=>{if(S.writing)return;S.writing=true;try{const kode=await createMember({...r,uid:r._id});await S.db.doc("pendaftaran/"+r._id).update({status:"diterima",kode});toast(`${r.nama} diterima: ${kode}`);const href=waLink(`Halo ${r.nama.split(" ")[0]}! Pendaftaran member Linda Kosmetik kamu sudah diterima.\nKode member kamu: ${kode}`,r.hp);if(href&&confirm("Kirim kode member lewat WhatsApp sekarang?"))open(href,"_blank","noopener")}catch(e){toast("Gagal menerima pendaftaran")}S.writing=false;renderDash()};
     el.querySelector('[data-act="no"]').onclick=async()=>{if(!confirm(`Tolak pendaftaran ${r.nama}?`))return;try{await S.db.doc("pendaftaran/"+r._id).update({status:"ditolak"});log("Menolak","pendaftaran",r.nama)}catch(e){toast("Gagal")}}});
@@ -1720,7 +2041,7 @@ function dPoin(){
   return `<p class="sub">Catat poin dari setiap belanja member, atau penukaran poin.</p><div class="two">${left}${right}</div>`;
 }
 let histUnsub=null;
-async function recompute(kode){const a=S.anggota.find(x=>x.kode===kode);const snap=await S.db.collection("riwayat").where("kode","==",kode).get();let saldo=0,total=0;snap.docs.forEach(d=>{const v=Number(d.data().poin)||0;saldo+=v;if(v>0)total+=v});await S.db.doc("kartu/"+kode).set({kode,panggilan:(a&&(a.panggilan||a.nama.split(" ")[0]))||"Member",poin:saldo,poinTotal:total,kunci:await kunciFor(kode,a&&a.hp),updatedAt:Date.now()})}
+async function recompute(kode){const a=S.anggota.find(x=>x.kode===kode);const snap=await S.db.collection("riwayat").where("kode","==",kode).get();let saldo=0,total=0;snap.docs.forEach(d=>{const v=Number(d.data().poin)||0;saldo+=v;if(v>0)total+=v});const hist=snap.docs.map(d=>d.data()).sort((x,y)=>(y.at||0)-(x.at||0)).slice(0,30).map(r=>({t:r.catatan||(r.poin>0?"Belanja":"Tukar poin"),p:Number(r.poin)||0,at:r.at||0}));await S.db.doc("kartu/"+kode).set({kode,panggilan:(a&&(a.panggilan||a.nama.split(" ")[0]))||"Member",poin:saldo,poinTotal:total,hist,kunci:await kunciFor(kode,a&&a.hp),updatedAt:Date.now()})}
 function bPoin(){
   if(histUnsub){histUnsub();histUnsub=null}
   const draw=()=>{const q=($("#po-q").value||"").toLowerCase();const l=S.anggota.filter(a=>!q||[a.nama,a.kode,a.hp].join(" ").toLowerCase().includes(q)).slice(0,30);
@@ -1824,6 +2145,7 @@ route();
     sub("statistik","stats",["ringkasan"]);
     sub("audit","audit",["audit"]);
     sub("akses","akses",["akses"]);
+    sub("profil","profil",["member"]);
   }
   route();
   trackInit();
