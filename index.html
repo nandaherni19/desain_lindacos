@@ -1109,6 +1109,28 @@ nav.main .ql:hover{filter:brightness(.97)}
 .ic-b{position:absolute; top:-4px; right:-8px; min-width:22px; height:22px; padding:0 6px; border-radius:99px; background:#2A1A20; color:#fff; font-style:normal; font-size:11.5px; font-weight:800; display:grid; place-items:center; border:2px solid #fff}
 .ic-b.warn{background:#F2B544; color:#3A2400; min-width:20px; padding:0}
 @media (max-width:640px){ .akicons{padding:16px 4px 12px; gap:2px; border-radius:22px} .ic-c{width:50px; height:50px} .ic-c svg{width:22px; height:22px} .ic-l{font-size:12px} .ic-b{right:-10px; min-width:20px; height:20px; font-size:10.5px} }
+/* vault merah + shade logo Linda */
+.vault, .lastcall .vault{background:linear-gradient(160deg,#FF7A9A 0%,#D6334A 55%,#9F1D35 100%); box-shadow:inset 0 0 0 2px rgba(255,255,255,.45), 0 22px 44px -24px rgba(80,10,25,.9)}
+.vault::before{display:none}
+.vault .v-woman{position:absolute; right:-14%; bottom:-6%; width:78%; color:#fff; opacity:.2; z-index:1; pointer-events:none}
+.vault .v-in{z-index:2}
+.vault .v-in > span:not(.btn):not(.v-lock){opacity:.92}
+@media (max-width:760px){
+  .g5 .vault{grid-column:1 / -1; min-height:0; display:block}
+  .vault .v-in{display:grid; grid-template-columns:auto 1fr; grid-template-areas:"lk t" "lk k" "bt bt" "s s"; column-gap:14px; row-gap:2px; align-items:center; text-align:left; padding:18px 18px 16px}
+  .vault .v-in{width:100%; box-sizing:border-box; justify-self:stretch}
+  .vault .v-in b{white-space:nowrap}
+  .vault .v-sub{text-align:center}
+  .vault .v-lock{grid-area:lk; width:54px; height:54px; margin:0; box-shadow:0 0 0 6px rgba(255,211,107,.2)}
+  .vault .v-lock .lk-ic{width:26px; height:26px}
+  .vault .v-in b{grid-area:t; font-size:24px}
+  .vault .v-k{grid-area:k; font-size:13.5px}
+  .vault .v-sub{grid-area:s; font-size:12px!important}
+  .vault .v-in .btn{grid-area:bt; margin:12px 0 6px; padding:11px 14px; width:100%; font-size:14.5px}
+  .g5 .prices .pmem{display:flex; flex-wrap:wrap; align-items:center; gap:2px 4px; font-size:15.5px}
+  .g5 .prices .pmem small{margin-right:0}
+  .vault .v-woman{width:46%; right:-6%; bottom:-30%; opacity:.16}
+}
 /* selalu mode terang */
 :root{color-scheme:light only!important; --bg:#FFFFFF!important; --surface:#FFF4F5!important; --surface-2:#FBE4E7!important; --ink:#2A1A20!important; --muted:#7A5E66!important; --line:#F1D5DA!important; --red:#D6334A!important; --red-deep:#B5243A!important; --card:#FFFFFF!important; --kunyit:#E9A12B!important; --daun:#2F6B4F!important; --danger:#B42318!important; --shadow:0 1px 0 rgba(42,26,32,.06), 0 10px 30px -18px rgba(150,30,50,.35)!important}
 html,body{background:#FFFFFF; color:#2A1A20}
@@ -1432,7 +1454,7 @@ function gatedRail(list,label){if(S.unlocked)return `<div class="g5">${list.slic
 const LOCKSVG='<svg class="lk-ic" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" aria-hidden="true"><path class="shackle" d="M8 11V7a4 4 0 0 1 8 0v4"/><rect x="5" y="11" width="14" height="10" rx="2.5" fill="currentColor" fill-opacity=".15"/><circle cx="12" cy="16" r="1.4" fill="currentColor"/></svg>';
 const UNLOCKSVG='<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" aria-hidden="true"><path d="M8 11V7a4 4 0 0 1 7.6-1.7"/><rect x="5" y="11" width="14" height="10" rx="2.5"/><circle cx="12" cy="16" r="1.4" fill="currentColor"/></svg>';
 function vault(list,shown,label){const hidden=list.slice(shown),rest=hidden.length;if(rest<=0)return "";
-  return `<a class="vault" href="#member" aria-label="${rest} produk ${esc(label)} lagi khusus member. Masuk atau daftar member untuk membuka."><div class="v-stack" aria-hidden="true">${hidden.slice(0,3).map((p,i)=>`<div class="v-ghost g${i}">${art(p)}</div>`).join("")}</div><div class="v-in"><span class="v-lock">${LOCKSVG}</span><b>+${rest} produk</b><span>khusus member</span><span class="btn btn-white btn-sm">Buka sekarang</span><span class="v-sub">Masuk atau daftar gratis</span></div></a>`}
+  return `<a class="vault" href="#member" aria-label="${rest} produk ${esc(label)} lagi khusus member. Masuk atau daftar member untuk membuka."><span class="mk mk-woman v-woman" aria-hidden="true"></span><div class="v-in"><span class="v-lock">${LOCKSVG}</span><b>+${rest} produk</b><span class="v-k">khusus member</span><span class="btn btn-white btn-sm">Buka sekarang</span><span class="v-sub">Masuk atau daftar gratis</span></div></a>`}
 function gatedGrid(list,label){if(S.unlocked)return `<div class="g5">${list.slice(0,10).map(pcard).join("")}</div>`;return `<div class="g5">${list.slice(0,TEASE).map(pcard).join("")}${vault(list,TEASE,label)}</div>`}
 function statusChip(n){return S.unlocked?`<span class="ustat on">${UNLOCKSVG}<span>Terbuka${S.member?` untuk ${esc(S.member.panggilan)}`:" untukmu"}</span></span>`:`<span class="ustat">${LOCKSVG}<span>${Math.min(TEASE,n)} dari ${n} tampil</span></span>`}
 function vipSection(list){const more=S.unlocked?`<button class="more v-more" data-go="promo">Lihat semua →</button>`:"";
